@@ -43,27 +43,28 @@ def bouw(p):
         'Vraag 2 — het juiste gereedschap',
         'Koppel elke situatie aan de aanpak die daar het beste bij past.',
         rijen=[
-            ('Vijf collega’s schrijven hetzelfde soort verslag, met wisselende '
-             'kwaliteit', 'Een gedeelde custom GPT'),
-            ('Je wilt vragen kunnen stellen over honderd documenten op de gedeelde '
-             'schijf', 'Een connector'),
+            ('Je typt bij elke opdracht dezelfde uitleg over je organisatie en '
+             'doelgroep', 'Een project met vaste instructies'),
+            ('Je wilt vragen kunnen stellen over je documenten in Google Drive',
+             'Een connector'),
             ('Je wilt een map met eigen bestanden laten opschonen en hernoemen',
-             'Claude Desktop met maptoegang'),
-            ('Je wilt gegevens overzetten tussen twee webapplicaties zonder koppeling',
-             'Een browser-agent'),
+             'De desktop-app met maptoegang'),
+            ('Je moet bij een document op de SharePoint van de HAN, waarvoor geen '
+             'koppeling bestaat', 'Je ingelogde browsersessie'),
         ],
-        opties=['Een gedeelde custom GPT', 'Een connector',
-                'Claude Desktop met maptoegang', 'Een browser-agent'],
+        opties=['Een project met vaste instructies', 'Een connector',
+                'De desktop-app met maptoegang', 'Je ingelogde browsersessie'],
         feedback={
             'title': 'Vraag 2',
-            'correct': '<p>Goed. Delen met collega’s wijst naar een custom GPT, '
-                       'doorzoeken van een bestaand systeem naar een connector, werken '
-                       'ín bestanden naar de desktop, en klikken in webschermen naar '
-                       'een browser-agent.</p>',
+            'correct': '<p>Goed. Herhaalde context wijst naar een project, doorzoeken '
+                       'van een koppelbaar systeem naar een connector, werken ín '
+                       'bestanden naar de desktop-app, en een geblokkeerd systeem naar '
+                       'je eigen ingelogde browsersessie.</p>',
             '_incorrect': {'final': '<p>Nog niet. Vraag je per situatie af waar het '
-                                    'werk zich afspeelt: bij collega’s, in een '
-                                    'gekoppeld systeem, in bestanden op je schijf, of '
-                                    'in een browserscherm.</p>'},
+                                    'werk zich afspeelt: in je instructies, in een '
+                                    'koppelbaar systeem, in bestanden op je schijf, of '
+                                    'in een browserscherm waar je zelf al bent '
+                                    'ingelogd.</p>'},
             '_partlyCorrect': {'final': '<p>Deels goed. Kijk nog eens naar de regels '
                                         'die je fout had.</p>'}
         })

@@ -106,7 +106,7 @@ def bouw(p):
                      'was, plak hem erbij.</p>'},
             {'title': '7. Alles opnieuw typen in elk gesprek',
              'body': '<p>Als je dezelfde context drie keer hebt getypt, hoort hij in '
-                     'een project of custom GPT. Zie hoofdstuk 7.</p>'},
+                     'een project. Zie hoofdstuk 7.</p>'},
         ])
 
     p.invulvelden(

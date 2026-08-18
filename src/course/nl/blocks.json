@@ -169,7 +169,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "",
-    "title": "Niet \"wat kan AI\", maar \"waar levert het mij tijd op\"",
+    "title": "De verkeerde vraag en de goede",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -180,7 +180,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "separator",
-    "title": "Acht dingen waar het echt tijd scheelt",
+    "title": "Deze cursus is er zelf een voorbeeld van",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -191,7 +191,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "separator",
-    "title": "Waar je het níet voor inzet",
+    "title": "Vier niveaus",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -202,7 +202,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan: je eigen inzetplekken vinden",
+    "title": "Van versnellen naar een tweede brein",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -213,7 +213,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "separator",
-    "title": "Oefening: jouw twee taken",
+    "title": "Wat het verschil maakt tussen aardig en echt",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -224,7 +224,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "separator",
-    "title": "Meenemen",
+    "title": "Vijf harde grenzen",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -235,7 +235,7 @@
     "_parentId": "a-3",
     "_type": "block",
     "_classes": "separator",
-    "title": "Even checken",
+    "title": "Stappenplan: kies je eerste echte opdracht",
     "displayTitle": "",
     "body": "",
     "instruction": "",
@@ -245,12 +245,56 @@
     "_id": "b-308",
     "_parentId": "a-3",
     "_type": "block",
+    "_classes": "separator",
+    "title": "Catalogus: twaalf opdrachten om uit te kiezen",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 22
+  },
+  {
+    "_id": "b-309",
+    "_parentId": "a-3",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Oefening: leg je opdracht vast",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 23
+  },
+  {
+    "_id": "b-310",
+    "_parentId": "a-3",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Meenemen",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 24
+  },
+  {
+    "_id": "b-311",
+    "_parentId": "a-3",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Even checken",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 25
+  },
+  {
+    "_id": "b-312",
+    "_parentId": "a-3",
+    "_type": "block",
     "_classes": "separator paginanav",
     "title": "Tekst",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 22
+    "_trackingId": 26
   },
   {
     "_id": "b-401",
@@ -261,7 +305,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 23
+    "_trackingId": 27
   },
   {
     "_id": "b-402",
@@ -272,7 +316,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 24
+    "_trackingId": 28
   },
   {
     "_id": "b-403",
@@ -283,7 +327,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 25
+    "_trackingId": 29
   },
   {
     "_id": "b-404",
@@ -294,7 +338,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 26
+    "_trackingId": 30
   },
   {
     "_id": "b-405",
@@ -305,7 +349,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 27
+    "_trackingId": 31
   },
   {
     "_id": "b-406",
@@ -316,7 +360,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 28
+    "_trackingId": 32
   },
   {
     "_id": "b-407",
@@ -327,7 +371,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 29
+    "_trackingId": 33
   },
   {
     "_id": "b-408",
@@ -338,7 +382,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 30
+    "_trackingId": 34
   },
   {
     "_id": "b-409",
@@ -349,7 +393,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 31
+    "_trackingId": 35
   },
   {
     "_id": "b-410",
@@ -360,7 +404,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 32
+    "_trackingId": 36
   },
   {
     "_id": "b-411",
@@ -371,7 +415,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 33
+    "_trackingId": 37
   },
   {
     "_id": "b-501",
@@ -382,7 +426,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 34
+    "_trackingId": 38
   },
   {
     "_id": "b-502",
@@ -393,7 +437,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 35
+    "_trackingId": 39
   },
   {
     "_id": "b-503",
@@ -404,7 +448,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 36
+    "_trackingId": 40
   },
   {
     "_id": "b-504",
@@ -415,7 +459,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 37
+    "_trackingId": 41
   },
   {
     "_id": "b-505",
@@ -426,7 +470,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 38
+    "_trackingId": 42
   },
   {
     "_id": "b-506",
@@ -437,7 +481,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 39
+    "_trackingId": 43
   },
   {
     "_id": "b-507",
@@ -448,7 +492,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 40
+    "_trackingId": 44
   },
   {
     "_id": "b-508",
@@ -459,7 +503,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 41
+    "_trackingId": 45
   },
   {
     "_id": "b-509",
@@ -470,7 +514,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 42
+    "_trackingId": 46
   },
   {
     "_id": "b-510",
@@ -481,7 +525,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 43
+    "_trackingId": 47
   },
   {
     "_id": "b-601",
@@ -492,7 +536,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 44
+    "_trackingId": 48
   },
   {
     "_id": "b-602",
@@ -503,7 +547,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 45
+    "_trackingId": 49
   },
   {
     "_id": "b-603",
@@ -514,32 +558,54 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 46
+    "_trackingId": 50
   },
   {
     "_id": "b-604",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
-    "title": "Gratis account versus zakelijk account",
+    "title": "Log in met je eigen privé-account, nooit met je werkaccount",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 47
+    "_trackingId": 51
   },
   {
     "_id": "b-605",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan: je eigen account nalopen",
+    "title": "Zet modeltraining uit — dit is de belangrijkste instelling die er is",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 48
+    "_trackingId": 52
   },
   {
     "_id": "b-606",
+    "_parentId": "a-6",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Letterlijk: zo zet je het uit",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 53
+  },
+  {
+    "_id": "b-607",
+    "_parentId": "a-6",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Stappenplan: je account in orde maken",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 54
+  },
+  {
+    "_id": "b-608",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
@@ -547,10 +613,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 49
+    "_trackingId": 55
   },
   {
-    "_id": "b-607",
+    "_id": "b-609",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
@@ -558,10 +624,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 50
+    "_trackingId": 56
   },
   {
-    "_id": "b-608",
+    "_id": "b-610",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
@@ -569,21 +635,21 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 51
+    "_trackingId": 57
   },
   {
-    "_id": "b-609",
+    "_id": "b-611",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
-    "title": "Oefening: maak deze casus veilig",
+    "title": "Oefening: instellingen goedzetten en een casus veilig maken",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 52
+    "_trackingId": 58
   },
   {
-    "_id": "b-610",
+    "_id": "b-612",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
@@ -591,10 +657,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 53
+    "_trackingId": 59
   },
   {
-    "_id": "b-611",
+    "_id": "b-613",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator",
@@ -602,10 +668,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 54
+    "_trackingId": 60
   },
   {
-    "_id": "b-612",
+    "_id": "b-614",
     "_parentId": "a-6",
     "_type": "block",
     "_classes": "separator paginanav",
@@ -613,32 +679,54 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 55
+    "_trackingId": 61
   },
   {
     "_id": "b-701",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "",
-    "title": "Stop met dezelfde context typen",
+    "title": "Een project is een herhaalprompt",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 56
+    "_trackingId": 62
   },
   {
     "_id": "b-702",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator",
-    "title": "Drie vormen, en wanneer je welke pakt",
+    "title": "Custom GPT’s: nieuwe maken kan niet meer op een persoonlijk account",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 57
+    "_trackingId": 63
   },
   {
     "_id": "b-703",
+    "_parentId": "a-7",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Leer eerst de prompt optimizer gebruiken",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 64
+  },
+  {
+    "_id": "b-704",
+    "_parentId": "a-7",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Delen doe je met een .md-bestand",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 65
+  },
+  {
+    "_id": "b-705",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator",
@@ -646,54 +734,54 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 58
-  },
-  {
-    "_id": "b-704",
-    "_parentId": "a-7",
-    "_type": "block",
-    "_classes": "separator",
-    "title": "Stappenplan: een custom GPT bouwen",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_trackingId": 59
-  },
-  {
-    "_id": "b-705",
-    "_parentId": "a-7",
-    "_type": "block",
-    "_classes": "separator",
-    "title": "Wat je niet in kennisbestanden zet",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_trackingId": 60
+    "_trackingId": 66
   },
   {
     "_id": "b-706",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator",
-    "title": "Wat maakt het verschil tussen een goede en een matige assistent",
+    "title": "De belangrijkste beperking van Claude Projects: te veel sturen loopt dood",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 61
+    "_trackingId": 67
   },
   {
     "_id": "b-707",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator",
-    "title": "Oefening: ontwerp je eigen project",
+    "title": "Stappenplan: een ChatGPT Project opzetten",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 62
+    "_trackingId": 68
   },
   {
     "_id": "b-708",
+    "_parentId": "a-7",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Wat je niet in projectbestanden zet",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 69
+  },
+  {
+    "_id": "b-709",
+    "_parentId": "a-7",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Oefening: van ruwe prompt naar werkend project",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 70
+  },
+  {
+    "_id": "b-710",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator",
@@ -701,10 +789,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 63
+    "_trackingId": 71
   },
   {
-    "_id": "b-709",
+    "_id": "b-711",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator",
@@ -712,10 +800,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 64
+    "_trackingId": 72
   },
   {
-    "_id": "b-710",
+    "_id": "b-712",
     "_parentId": "a-7",
     "_type": "block",
     "_classes": "separator paginanav",
@@ -723,7 +811,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 65
+    "_trackingId": 73
   },
   {
     "_id": "b-801",
@@ -734,32 +822,54 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 66
+    "_trackingId": 74
   },
   {
     "_id": "b-802",
     "_parentId": "a-8",
     "_type": "block",
     "_classes": "separator",
-    "title": "MCP: de stekker achter de connectors",
+    "title": "Teams en SharePoint kun je niet koppelen — dat is geblokkeerd",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 67
+    "_trackingId": 75
   },
   {
     "_id": "b-803",
     "_parentId": "a-8",
     "_type": "block",
     "_classes": "separator",
-    "title": "Wat er te koppelen valt",
+    "title": "Wat wél werkt, en wat het kost",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 68
+    "_trackingId": 76
   },
   {
     "_id": "b-804",
+    "_parentId": "a-8",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Wat je kunt overslaan",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 77
+  },
+  {
+    "_id": "b-805",
+    "_parentId": "a-8",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Drie alternatieven als koppelen niet kan",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 78
+  },
+  {
+    "_id": "b-806",
     "_parentId": "a-8",
     "_type": "block",
     "_classes": "separator",
@@ -767,21 +877,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 69
+    "_trackingId": 79
   },
   {
-    "_id": "b-805",
-    "_parentId": "a-8",
-    "_type": "block",
-    "_classes": "separator",
-    "title": "Stappenplan: een connector aanzetten in ChatGPT",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_trackingId": 70
-  },
-  {
-    "_id": "b-806",
+    "_id": "b-807",
     "_parentId": "a-8",
     "_type": "block",
     "_classes": "separator",
@@ -789,29 +888,18 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 71
-  },
-  {
-    "_id": "b-807",
-    "_parentId": "a-8",
-    "_type": "block",
-    "_classes": "separator",
-    "title": "Vier vragen voor je koppelt",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_trackingId": 72
+    "_trackingId": 80
   },
   {
     "_id": "b-808",
     "_parentId": "a-8",
     "_type": "block",
     "_classes": "separator",
-    "title": "Oefening: kies en test één koppeling",
+    "title": "Oefening: kies één route en test hem",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 73
+    "_trackingId": 81
   },
   {
     "_id": "b-809",
@@ -822,7 +910,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 74
+    "_trackingId": 82
   },
   {
     "_id": "b-810",
@@ -833,7 +921,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 75
+    "_trackingId": 83
   },
   {
     "_id": "b-811",
@@ -844,7 +932,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 76
+    "_trackingId": 84
   },
   {
     "_id": "b-901",
@@ -855,32 +943,21 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 77
+    "_trackingId": 85
   },
   {
     "_id": "b-902",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
-    "title": "Twee smaken",
+    "title": "Waarom dit voor ons extra van belang is",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 78
+    "_trackingId": 86
   },
   {
     "_id": "b-903",
-    "_parentId": "a-9",
-    "_type": "block",
-    "_classes": "separator",
-    "title": "Waar het echt tijd scheelt",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_trackingId": 79
-  },
-  {
-    "_id": "b-904",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
@@ -888,43 +965,76 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 80
+    "_trackingId": 87
+  },
+  {
+    "_id": "b-904",
+    "_parentId": "a-9",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Stel dit vandaag in — vaste regels die altijd gelden",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 88
   },
   {
     "_id": "b-905",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
-    "title": "Zeven regels voor veilig gebruik",
+    "title": "Regels zijn een verdedigingslaag, geen garantie",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 81
+    "_trackingId": 89
   },
   {
     "_id": "b-906",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan: Claude in Chrome veilig inrichten",
+    "title": "Zeven gedragsregels voor veilig gebruik",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 82
+    "_trackingId": 90
   },
   {
     "_id": "b-907",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
-    "title": "Oefening: één taak, met de rem erop",
+    "title": "Stappenplan: veilig inrichten",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 83
+    "_trackingId": 91
   },
   {
     "_id": "b-908",
+    "_parentId": "a-9",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Waar het echt tijd scheelt",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 92
+  },
+  {
+    "_id": "b-909",
+    "_parentId": "a-9",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Oefening: regels instellen, daarna één leestaak",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 93
+  },
+  {
+    "_id": "b-910",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
@@ -932,10 +1042,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 84
+    "_trackingId": 94
   },
   {
-    "_id": "b-909",
+    "_id": "b-911",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator",
@@ -943,10 +1053,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 85
+    "_trackingId": 95
   },
   {
-    "_id": "b-910",
+    "_id": "b-912",
     "_parentId": "a-9",
     "_type": "block",
     "_classes": "separator paginanav",
@@ -954,7 +1064,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 86
+    "_trackingId": 96
   },
   {
     "_id": "b-1001",
@@ -965,7 +1075,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 87
+    "_trackingId": 97
   },
   {
     "_id": "b-1002",
@@ -976,10 +1086,65 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 88
+    "_trackingId": 98
   },
   {
     "_id": "b-1003",
+    "_parentId": "a-10",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Andersom net zo belangrijk: wat je aanlevert",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 99
+  },
+  {
+    "_id": "b-1004",
+    "_parentId": "a-10",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Markdown is de spil, in beide richtingen",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 100
+  },
+  {
+    "_id": "b-1005",
+    "_parentId": "a-10",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "De harde grens: één antwoord kan maar zo lang zijn",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 101
+  },
+  {
+    "_id": "b-1006",
+    "_parentId": "a-10",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Vijf werkvormen voor werk dat niet in één antwoord past",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 102
+  },
+  {
+    "_id": "b-1007",
+    "_parentId": "a-10",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Welke werkvorm wanneer",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 103
+  },
+  {
+    "_id": "b-1008",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -987,10 +1152,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 89
+    "_trackingId": 104
   },
   {
-    "_id": "b-1004",
+    "_id": "b-1009",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -998,10 +1163,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 90
+    "_trackingId": 105
   },
   {
-    "_id": "b-1005",
+    "_id": "b-1010",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -1009,10 +1174,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 91
+    "_trackingId": 106
   },
   {
-    "_id": "b-1006",
+    "_id": "b-1011",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -1020,10 +1185,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 92
+    "_trackingId": 107
   },
   {
-    "_id": "b-1007",
+    "_id": "b-1012",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -1031,10 +1196,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 93
+    "_trackingId": 108
   },
   {
-    "_id": "b-1008",
+    "_id": "b-1013",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -1042,10 +1207,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 94
+    "_trackingId": 109
   },
   {
-    "_id": "b-1009",
+    "_id": "b-1014",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator",
@@ -1053,10 +1218,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 95
+    "_trackingId": 110
   },
   {
-    "_id": "b-1010",
+    "_id": "b-1015",
     "_parentId": "a-10",
     "_type": "block",
     "_classes": "separator paginanav",
@@ -1064,7 +1229,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 96
+    "_trackingId": 111
   },
   {
     "_id": "b-1101",
@@ -1075,7 +1240,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 97
+    "_trackingId": 112
   },
   {
     "_id": "b-1102",
@@ -1086,7 +1251,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 98
+    "_trackingId": 113
   },
   {
     "_id": "b-1103",
@@ -1097,7 +1262,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 99
+    "_trackingId": 114
   },
   {
     "_id": "b-1104",
@@ -1108,18 +1273,18 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 100
+    "_trackingId": 115
   },
   {
     "_id": "b-1105",
     "_parentId": "a-11",
     "_type": "block",
     "_classes": "separator",
-    "title": "De regels om te kopiëren",
+    "title": "De aanvullende regels om te kopiëren",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 101
+    "_trackingId": 116
   },
   {
     "_id": "b-1106",
@@ -1130,7 +1295,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 102
+    "_trackingId": 117
   },
   {
     "_id": "b-1107",
@@ -1141,7 +1306,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 103
+    "_trackingId": 118
   },
   {
     "_id": "b-1108",
@@ -1152,7 +1317,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 104
+    "_trackingId": 119
   },
   {
     "_id": "b-1109",
@@ -1163,7 +1328,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 105
+    "_trackingId": 120
   },
   {
     "_id": "b-1110",
@@ -1174,7 +1339,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 106
+    "_trackingId": 121
   },
   {
     "_id": "b-1111",
@@ -1185,7 +1350,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 107
+    "_trackingId": 122
   },
   {
     "_id": "b-1201",
@@ -1196,7 +1361,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 108
+    "_trackingId": 123
   },
   {
     "_id": "b-1202",
@@ -1207,7 +1372,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 109
+    "_trackingId": 124
   },
   {
     "_id": "b-1203",
@@ -1218,10 +1383,32 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 110
+    "_trackingId": 125
   },
   {
     "_id": "b-1204",
+    "_parentId": "a-12",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Goed nieuws: je hoeft niets technisch te doen",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 126
+  },
+  {
+    "_id": "b-1205",
+    "_parentId": "a-12",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "En als er tóch iets ingesteld moet worden: laat het doen",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 127
+  },
+  {
+    "_id": "b-1206",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1229,10 +1416,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 111
+    "_trackingId": 128
   },
   {
-    "_id": "b-1205",
+    "_id": "b-1207",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1240,10 +1427,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 112
+    "_trackingId": 129
   },
   {
-    "_id": "b-1206",
+    "_id": "b-1208",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1251,10 +1438,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 113
+    "_trackingId": 130
   },
   {
-    "_id": "b-1207",
+    "_id": "b-1209",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1262,10 +1449,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 114
+    "_trackingId": 131
   },
   {
-    "_id": "b-1208",
+    "_id": "b-1210",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1273,10 +1460,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 115
+    "_trackingId": 132
   },
   {
-    "_id": "b-1209",
+    "_id": "b-1211",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1284,10 +1471,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 116
+    "_trackingId": 133
   },
   {
-    "_id": "b-1210",
+    "_id": "b-1212",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1295,10 +1482,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 117
+    "_trackingId": 134
   },
   {
-    "_id": "b-1211",
+    "_id": "b-1213",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator",
@@ -1306,10 +1493,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 118
+    "_trackingId": 135
   },
   {
-    "_id": "b-1212",
+    "_id": "b-1214",
     "_parentId": "a-12",
     "_type": "block",
     "_classes": "separator paginanav",
@@ -1317,7 +1504,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 119
+    "_trackingId": 136
   },
   {
     "_id": "b-1301",
@@ -1328,7 +1515,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 120
+    "_trackingId": 137
   },
   {
     "_id": "b-1302",
@@ -1339,7 +1526,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 121
+    "_trackingId": 138
   },
   {
     "_id": "b-1303",
@@ -1350,7 +1537,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 122
+    "_trackingId": 139
   },
   {
     "_id": "b-1304",
@@ -1361,7 +1548,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 123
+    "_trackingId": 140
   },
   {
     "_id": "b-1305",
@@ -1372,7 +1559,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 124
+    "_trackingId": 141
   },
   {
     "_id": "b-1306",
@@ -1383,7 +1570,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 125
+    "_trackingId": 142
   },
   {
     "_id": "b-1307",
@@ -1394,7 +1581,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 126
+    "_trackingId": 143
   },
   {
     "_id": "b-1308",
@@ -1405,7 +1592,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 127
+    "_trackingId": 144
   },
   {
     "_id": "b-1309",
@@ -1416,7 +1603,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 128
+    "_trackingId": 145
   },
   {
     "_id": "b-1310",
@@ -1427,18 +1614,18 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 129
+    "_trackingId": 146
   },
   {
     "_id": "b-1401",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "",
-    "title": "Drie gereedschappen, één middag",
+    "title": "Je typt dit niet zelf",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 130
+    "_trackingId": 147
   },
   {
     "_id": "b-1402",
@@ -1449,32 +1636,76 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 131
+    "_trackingId": 148
   },
   {
     "_id": "b-1403",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan A: Git en de GitHub CLI installeren op Windows",
+    "title": "Stappenplan A: één keer een startpunt maken",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 132
+    "_trackingId": 149
   },
   {
     "_id": "b-1404",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan B: je eerste project online zetten",
+    "title": "Stappenplan B: laat je assistent de rest installeren",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 133
+    "_trackingId": 150
   },
   {
     "_id": "b-1405",
+    "_parentId": "a-14",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Wat je nu op je machine hebt staan, en waarvoor",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 151
+  },
+  {
+    "_id": "b-1406",
+    "_parentId": "a-14",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Wat je wél zelf moet doen: je apparaat koppelen",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 152
+  },
+  {
+    "_id": "b-1407",
+    "_parentId": "a-14",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Stappenplan C: inloggen bij de drie diensten",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 153
+  },
+  {
+    "_id": "b-1408",
+    "_parentId": "a-14",
+    "_type": "block",
+    "_classes": "separator",
+    "title": "Stappenplan D: je eerste project online zetten",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 154
+  },
+  {
+    "_id": "b-1409",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
@@ -1482,32 +1713,32 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 134
+    "_trackingId": 155
   },
   {
-    "_id": "b-1406",
+    "_id": "b-1410",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan C: Claude Code of Codex erbij zetten",
+    "title": "Stappenplan E: een achterkant met Firebase",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 135
+    "_trackingId": 156
   },
   {
-    "_id": "b-1407",
+    "_id": "b-1411",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
-    "title": "Stappenplan D: een achterkant met Firebase",
+    "title": "Stappenplan F: laat mensen inloggen met Google",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 136
+    "_trackingId": 157
   },
   {
-    "_id": "b-1408",
+    "_id": "b-1412",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
@@ -1515,10 +1746,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 137
+    "_trackingId": 158
   },
   {
-    "_id": "b-1409",
+    "_id": "b-1413",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
@@ -1526,21 +1757,21 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 138
+    "_trackingId": 159
   },
   {
-    "_id": "b-1410",
+    "_id": "b-1414",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
-    "title": "Oefening: zet je werkplek op en publiceer iets",
+    "title": "Oefening: laat je werkplek inrichten en publiceer iets",
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 139
+    "_trackingId": 160
   },
   {
-    "_id": "b-1411",
+    "_id": "b-1415",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
@@ -1548,10 +1779,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 140
+    "_trackingId": 161
   },
   {
-    "_id": "b-1412",
+    "_id": "b-1416",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator",
@@ -1559,10 +1790,10 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 141
+    "_trackingId": 162
   },
   {
-    "_id": "b-1413",
+    "_id": "b-1417",
     "_parentId": "a-14",
     "_type": "block",
     "_classes": "separator paginanav",
@@ -1570,7 +1801,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 142
+    "_trackingId": 163
   },
   {
     "_id": "b-1501",
@@ -1581,7 +1812,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 143
+    "_trackingId": 164
   },
   {
     "_id": "b-1502",
@@ -1592,7 +1823,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 144
+    "_trackingId": 165
   },
   {
     "_id": "b-1503",
@@ -1603,7 +1834,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 145
+    "_trackingId": 166
   },
   {
     "_id": "b-1504",
@@ -1614,7 +1845,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 146
+    "_trackingId": 167
   },
   {
     "_id": "b-1505",
@@ -1625,7 +1856,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 147
+    "_trackingId": 168
   },
   {
     "_id": "b-1506",
@@ -1636,7 +1867,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 148
+    "_trackingId": 169
   },
   {
     "_id": "b-1507",
@@ -1647,7 +1878,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 149
+    "_trackingId": 170
   },
   {
     "_id": "b-1508",
@@ -1658,7 +1889,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 150
+    "_trackingId": 171
   },
   {
     "_id": "b-1509",
@@ -1669,7 +1900,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 151
+    "_trackingId": 172
   },
   {
     "_id": "b-1510",
@@ -1680,7 +1911,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 152
+    "_trackingId": 173
   },
   {
     "_id": "b-1511",
@@ -1691,7 +1922,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 153
+    "_trackingId": 174
   },
   {
     "_id": "b-1512",
@@ -1702,7 +1933,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 154
+    "_trackingId": 175
   },
   {
     "_id": "b-15001",
@@ -1713,6 +1944,6 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 155
+    "_trackingId": 176
   }
 ]

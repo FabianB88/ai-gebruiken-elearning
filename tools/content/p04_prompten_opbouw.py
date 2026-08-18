@@ -172,8 +172,8 @@ def bouw(p):
     p.knoppenrij(
         'Meenemen',
         '<p>Deze zes velden samen zijn je eerste herbruikbare prompt. Bewaar hem — in '
-        'hoofdstuk 7 zet je hem vast in een project of custom GPT, zodat je hem nooit '
-        'meer hoeft te typen.</p>')
+        'hoofdstuk 7 laat je hem aanscherpen door de prompt optimizer en zet je hem '
+        'vast in een project, zodat je hem nooit meer hoeft te typen.</p>')
 
     p.vraag(
         'Even checken',

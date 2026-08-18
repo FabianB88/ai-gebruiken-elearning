@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
-"""GitHub, GitHub CLI, Claude Code/Codex en Firebase: je werkplek klaarzetten."""
+"""Je werkplek laten inrichten door je AI-assistent, en publiceren."""
 
 
 def bouw(p):
     p.tekst(
-        'Drie gereedschappen, één middag',
-        '<p>Wil je meer doen dan losse scriptjes, dan heb je drie dingen nodig. Ze '
-        'zijn alle drie gratis, ze werken op Windows, en je zet ze in één middag '
-        'klaar. Daarna heb je een werkplek waarin AI echt mee kan bouwen.</p>'
-        '<ol>'
-        '<li><b>Git en GitHub</b> — versiebeheer. Je kunt altijd terug naar een '
-        'werkende versie, en je werk staat veilig online.</li>'
-        '<li><b>De GitHub CLI</b> — GitHub bedienen vanaf de opdrachtregel, zodat '
-        'Claude Code of Codex er zelf bij kan.</li>'
-        '<li><b>De Firebase CLI</b> — een achterkant voor je toepassing: opslag, '
-        'inloggen en hosting, zonder dat je een server hoeft te beheren.</li>'
-        '</ol>')
+        'Je typt dit niet zelf',
+        '<p>Wil je meer doen dan losse scriptjes, dan heb je een paar gereedschappen '
+        'nodig: versiebeheer, een koppeling met GitHub, een assistent die in je '
+        'projectmap werkt, en een achterkant voor je toepassing. Allemaal gratis, '
+        'allemaal werkend op Windows.</p>'
+        '<p>De oude manier was: handleidingen erbij, commando’s overtypen, hopen dat je '
+        'geen spatie vergeet. Dat hoeft niet meer. <b>Je richt één assistent in, en '
+        'die installeert en configureert de rest voor je.</b> Claude Code en Codex '
+        'kunnen software downloaden, installeren, instellingen wegschrijven en '
+        'controleren of het werkt.</p>'
+        '<p>Waar deze cursus "Claude Code" schrijft, kun je overal ook "Codex" lezen — '
+        'het werkt hetzelfde. Kies er één en blijf daarbij.</p>')
 
     p.tekst(
         'Waarom versiebeheer juist bij AI onmisbaar is',
@@ -29,108 +29,191 @@ def bouw(p):
         'zijn eigen fouten.</p>')
 
     p.tekst(
-        'Stappenplan A: Git en de GitHub CLI installeren op Windows',
+        'Stappenplan A: één keer een startpunt maken',
+        '<p>Dit is het enige deel waarbij je zelf iets moet regelen. Daarna doet je '
+        'assistent het werk.</p>'
         '<ol>'
-        '<li><b>Maak een GitHub-account aan</b> op github.com als je die nog niet '
-        'hebt. Gebruik je werkmailadres.</li>'
-        '<li><b>Open PowerShell.</b> Startmenu, typ "PowerShell", enter.</li>'
-        '<li><b>Installeer Git:</b><br><code>winget install --id Git.Git -e</code></li>'
-        '<li><b>Installeer de GitHub CLI:</b><br>'
-        '<code>winget install --id GitHub.cli -e</code></li>'
-        '<li><b>Sluit PowerShell en open het opnieuw.</b> Anders kent hij de nieuwe '
-        'commando’s nog niet.</li>'
-        '<li><b>Controleer of het gelukt is:</b><br><code>git --version</code><br>'
-        '<code>gh --version</code><br>Je krijgt twee versienummers terug.</li>'
-        '<li><b>Log in bij GitHub:</b><br><code>gh auth login</code><br>Kies '
-        '<i>GitHub.com</i>, dan <i>HTTPS</i>, dan <i>Login with a web browser</i>. Je '
-        'krijgt een code van acht tekens te zien; die plak je in het browservenster '
-        'dat opengaat.</li>'
-        '<li><b>Stel je naam en mailadres in</b> zodat je wijzigingen op jouw naam '
-        'staan:<br>'
-        '<code>git config --global user.name "Jouw Naam"</code><br>'
-        '<code>git config --global user.email "jij@organisatie.nl"</code></li>'
-        '<li><b>Controleer de inlog:</b><br><code>gh auth status</code></li>'
+        '<li><b>Zorg dat je Claude Desktop hebt draaien</b> met toegang tot een '
+        'werkmap, zoals in hoofdstuk 12.</li>'
+        '<li><b>Maak een GitHub-account aan</b> op github.com, als je die nog niet '
+        'hebt. Gebruik je privémailadres (hoofdstuk 6) en onthoud je '
+        'gebruikersnaam.</li>'
+        '<li><b>Vraag de desktop-app om je machine klaar te maken.</b> Letterlijk '
+        'zoiets:<br><i>"Installeer Node.js (LTS) en daarna Claude Code op deze '
+        'Windows-machine. Controleer na afloop of beide werken en laat me de '
+        'versienummers zien. Leg uit wat je doet voordat je iets installeert."</i></li>'
+        '<li><b>Kijk mee terwijl hij bezig is.</b> Hij gebruikt de pakketbeheerder van '
+        'Windows en laat zien wat er gebeurt. Vraagt Windows om toestemming, geef die '
+        'dan bewust.</li>'
+        '<li><b>Open daarna een nieuw terminalvenster</b> en start je assistent in je '
+        'projectmap met <code>claude</code> (of <code>codex</code>). De eerste keer log '
+        'je in.</li>'
         '</ol>')
 
     p.tekst(
-        'Stappenplan B: je eerste project online zetten',
-        '<p>Ga met PowerShell naar de map van je project (<code>cd '
-        'pad\\naar\\je\\map</code>) en voer deze commando’s uit.</p>'
+        'Stappenplan B: laat je assistent de rest installeren',
+        '<p>Nu je een assistent in je projectmap hebt, geef je hem de rest als één '
+        'opdracht. Plak dit:</p>'
+        '<blockquote><p><i>"Richt deze machine in voor ontwikkelwerk. Installeer, als '
+        'ze er nog niet zijn: Git, de GitHub CLI (gh), en de Firebase CLI. Installeer '
+        'daarnaast Rust Token Killer van GitHub. Controleer na elke installatie of het '
+        'werkt en toon het versienummer. Vertel me daarna welke stappen ik zelf nog '
+        'moet doen om in te loggen."</i></p></blockquote>'
+        '<p>Die laatste zin is de belangrijkste. Inloggen en je apparaat koppelen kan '
+        'hij niet voor je doen — dat moet jij zelf, en dat staat in stappenplan C '
+        'hieronder. Een goede assistent zegt dat uit zichzelf; zo niet, dan heb je er '
+        'nu om gevraagd.</p>'
+        '<p><b>Als er iets misgaat:</b> plak de foutmelding letterlijk terug en laat '
+        'hem het oplossen. Ga niet zelf zitten zoeken op internet.</p>')
+
+    p.accordeon(
+        'Wat je nu op je machine hebt staan, en waarvoor',
+        '<p>Handig om te weten wat er geïnstalleerd is. Bij elk stuk staat het '
+        'commando waarmee je kunt controleren of het werkt.</p>',
+        [
+            {'title': 'Git — versiebeheer',
+             'body': '<p>Houdt bij wat er verandert in je bestanden, zodat je altijd '
+                     'terug kunt naar een werkende versie.</p>'
+                     '<p>Controle: <code>git --version</code></p>'},
+            {'title': 'GitHub CLI (gh) — GitHub vanaf de opdrachtregel',
+             'body': '<p>Hiermee kan je assistent zélf repositories aanmaken, '
+                     'wijzigingen pushen en pull requests openen. Zonder dit moet je '
+                     'alles via de website doen, en dan kan je assistent er niet bij. '
+                     'Dit is precies wat het koppelen zo veel makkelijker maakt.</p>'
+                     '<p>Controle: <code>gh --version</code> en later '
+                     '<code>gh auth status</code></p>'},
+            {'title': 'Rust Token Killer (rtk) — scheelt tokens',
+             'body': '<p>Een hulpprogramma dat de uitvoer van ontwikkelcommando’s '
+                     'filtert voordat die in het gesprek belandt. Draai je '
+                     '<code>git status</code> in een grote map, dan komen daar zo '
+                     'honderden regels uit die allemaal je gesprekslimiet opvreten. '
+                     'Rtk knipt dat terug tot wat ertoe doet.</p>'
+                     '<p>Voor lange sessies scheelt dat serieus: je houdt meer ruimte '
+                     'over voor het echte werk voordat je gesprek volloopt. Zeker de '
+                     'moeite waard als je met hoofdstuk 13 aan de slag gaat.</p>'
+                     '<p>Controle: <code>rtk --version</code> en '
+                     '<code>rtk gain</code>, dat laat zien hoeveel je bespaard '
+                     'hebt.</p>'
+                     '<p><b>Let op:</b> er bestaat een ander programma met dezelfde '
+                     'afkorting. Werkt <code>rtk gain</code> niet, dan heb je de '
+                     'verkeerde te pakken — vraag je assistent om te controleren welke '
+                     'er geïnstalleerd staat.</p>'},
+            {'title': 'Firebase CLI — je achterkant',
+             'body': '<p>Voor als je toepassing gegevens moet bewaren of mensen moet '
+                     'laten inloggen. Zie stappenplan D en E.</p>'
+                     '<p>Controle: <code>firebase --version</code></p>'},
+            {'title': 'Node.js — de motor eronder',
+             'body': '<p>Veel van bovenstaande draait hierop. Je gebruikt het zelf '
+                     'nooit rechtstreeks.</p>'
+                     '<p>Controle: <code>node --version</code></p>'},
+        ])
+
+    p.aandacht(
+        'Wat je wél zelf moet doen: je apparaat koppelen',
+        '<p>Inloggen kan je assistent niet voor je doen, en dat is maar goed ook. Bij '
+        'elke dienst hoort een moment waarop jij in een browser bevestigt dat deze '
+        'computer namens jou mag handelen. Hieronder staat per dienst wat je te zien '
+        'krijgt, zodat je niet schrikt.</p>')
+
+    p.tekst(
+        'Stappenplan C: inloggen bij de drie diensten',
         '<ol>'
-        '<li><b>Maak er een repository van:</b><br><code>git init</code></li>'
-        '<li><b>Zet alles klaar en leg de eerste versie vast:</b><br>'
-        '<code>git add .</code><br>'
-        '<code>git commit -m "eerste versie"</code></li>'
-        '<li><b>Maak de repository op GitHub aan en zet je werk erin — in één '
-        'commando:</b><br>'
-        '<code>gh repo create mijn-project --private --source=. --push</code><br>'
-        'Kies bewust <code>--private</code>. Op <code>--public</code> zetten kan '
-        'later; teruggaan is lastiger, want wat publiek stond, kan gekopieerd '
-        'zijn.</li>'
-        '<li><b>Vanaf nu, na elke werkende wijziging:</b><br>'
-        '<code>git add .</code><br>'
-        '<code>git commit -m "beschrijf wat je veranderd hebt"</code><br>'
-        '<code>git push</code></li>'
-        '<li><b>Terug naar een eerdere versie?</b> <code>git log --oneline</code> '
-        'toont je geschiedenis; met <code>git checkout &lt;code&gt;</code> kijk je '
-        'terug in een oudere versie. Weet je het niet zeker: vraag het je '
-        'AI-assistent, met de uitvoer van <code>git status</code> erbij.</li>'
+        '<li><b>GitHub.</b> Typ <code>gh auth login</code>. Kies achtereenvolgens '
+        '<i>GitHub.com</i>, <i>HTTPS</i>, en <i>Login with a web browser</i>. Je '
+        'krijgt een code van acht tekens te zien; onthoud die, druk op enter, en plak '
+        'hem in het browservenster dat opengaat. Controleer daarna met '
+        '<code>gh auth status</code>.</li>'
+        '<li><b>Je naam instellen</b> zodat wijzigingen op jouw naam komen te staan. '
+        'Vraag je assistent: <i>"stel mijn git-gebruikersnaam en e-mailadres in op '
+        '[naam] en [mailadres]"</i>. Gebruik hetzelfde mailadres als bij je '
+        'GitHub-account.</li>'
+        '<li><b>Firebase.</b> Typ <code>firebase login</code>. Er opent een '
+        'browservenster waarin je je Google-account kiest en toestemming geeft. Zie je '
+        'geen venster, kijk dan in de terminal — daar staat een link die je zelf kunt '
+        'openen.</li>'
+        '<li><b>Claude Code of Codex zelf.</b> Bij de eerste start log je in met je '
+        'privé-account. Ook hier: een code of een browservenster.</li>'
+        '<li><b>Werkt het niet?</b> Vraag je assistent om mee te kijken: <i>"gh auth '
+        'status geeft dit terug: [plak de uitvoer]. Wat is er mis?"</i> Dit is precies '
+        'het soort probleem waar hij goed in is.</li>'
         '</ol>')
+
+    p.tekst(
+        'Stappenplan D: je eerste project online zetten',
+        '<p>Vanaf nu hoef je zelf niets meer te typen. Ga met je assistent naar je '
+        'projectmap en vraag:</p>'
+        '<blockquote><p><i>"Zet deze map onder versiebeheer, maak er een private '
+        'repository van op mijn GitHub en push de eerste versie. Maak eerst een '
+        '.gitignore die voorkomt dat sleutels, wachtwoorden en node_modules '
+        'meegaan."</i></p></blockquote>'
+        '<p>Kies bewust <b>private</b>. Op public zetten kan later; teruggaan is '
+        'lastiger, want wat publiek stond, kan gekopieerd zijn.</p>'
+        '<p>Daarna, na elke werkende wijziging: <i>"leg dit vast met een duidelijke '
+        'beschrijving en push het"</i>. En als er iets stukgaat: <i>"laat zien wat er '
+        'sinds de laatste werkende versie veranderd is"</i> of <i>"draai de laatste '
+        'wijziging terug"</i>.</p>'
+        '<p>Wil je begrijpen wat er onder water gebeurt — aan te raden, want dan kun '
+        'je het zelf controleren — vraag dan: <i>"leg uit welke git-commando’s je hebt '
+        'gebruikt en wat ze doen"</i>.</p>')
 
     p.aandacht(
         'Zet nooit sleutels of wachtwoorden in een repository',
         '<p>Ook niet in een private repository, en ook niet "tijdelijk". Wat één keer '
         'in de geschiedenis staat, blijft in de geschiedenis staan, ook als je het '
-        'later weghaalt. Maak een bestand <code>.gitignore</code> met daarin de namen '
-        'van bestanden die nooit mee mogen (bijvoorbeeld <code>.env</code>), en vraag '
-        'je AI-assistent expliciet om sleutels in zo’n apart bestand te zetten.</p>')
+        'later weghaalt. Vraag je assistent expliciet om sleutels in een apart bestand '
+        'te zetten dat in <code>.gitignore</code> staat, en om te controleren of er '
+        'niets gevoeligs is meegegaan voordat je pusht.</p>')
 
     p.tekst(
-        'Stappenplan C: Claude Code of Codex erbij zetten',
-        '<p>Dit zijn AI-assistenten die in je projectmap werken: ze lezen je '
-        'bestanden, schrijven wijzigingen, voeren commando’s uit en kunnen — dankzij '
-        'de GitHub CLI die je net installeerde — ook je versiebeheer bedienen.</p>'
-        '<ol>'
-        '<li><b>Installeer Node.js</b> via nodejs.org (LTS-versie), als je dat nog '
-        'niet gedaan hebt bij hoofdstuk 12.</li>'
-        '<li><b>Installeer de assistent van je keuze:</b><br>'
-        '<code>npm install -g @anthropic-ai/claude-code</code><br>'
-        'of<br>'
-        '<code>npm install -g @openai/codex</code></li>'
-        '<li><b>Ga naar je projectmap</b> en start hem: <code>claude</code> '
-        'respectievelijk <code>codex</code>. De eerste keer log je in.</li>'
-        '<li><b>Begin met een vraag, niet met een opdracht.</b> "Leg uit wat er in '
-        'deze map staat en wat het doet." Zo controleer je of hij de juiste map '
-        'ziet.</li>'
-        '<li><b>Laat hem zelf vastleggen in versiebeheer.</b> "Commit dit met een '
-        'duidelijke beschrijving." Dat is precies waarom je de GitHub CLI hebt '
-        'geïnstalleerd.</li>'
-        '<li><b>Herlees hoofdstuk 11 voordat je hem zonder tussenvragen laat '
-        'werken.</b> Hier geldt dat dubbel: deze assistent kan bestanden verwijderen '
-        'en commando’s uitvoeren op je computer.</li>'
-        '</ol>')
-
-    p.tekst(
-        'Stappenplan D: een achterkant met Firebase',
+        'Stappenplan E: een achterkant met Firebase',
         '<p>Zodra je toepassing gegevens moet <i>bewaren</i> — een formulier, een '
         'aanmelding, een lijst die blijft staan — heb je een achterkant nodig. '
         '<b>Firebase</b> van Google geeft je database, inloggen en hosting zonder dat '
         'je een server beheert, met een gratis niveau dat voor een prototype ruim '
         'voldoende is.</p>'
         '<ol>'
-        '<li><b>Installeer de Firebase CLI:</b><br>'
-        '<code>npm install -g firebase-tools</code></li>'
-        '<li><b>Log in:</b><br><code>firebase login</code><br>Er opent een '
-        'browservenster waarin je je Google-account kiest.</li>'
-        '<li><b>Maak een project aan</b> op console.firebase.google.com. Geef het een '
-        'herkenbare naam en zet Google Analytics uit als je het niet nodig hebt.</li>'
-        '<li><b>Koppel je map aan het project:</b><br><code>firebase init</code><br>'
-        'Kies met de spatiebalk wat je nodig hebt — meestal <i>Hosting</i> en '
-        '<i>Firestore</i> — en daarna je bestaande project.</li>'
-        '<li><b>Publiceer:</b><br><code>firebase deploy</code><br>Je krijgt een URL '
-        'terug waarop je toepassing live staat.</li>'
+        '<li><b>Maak een project aan</b> op console.firebase.google.com. Dit doe je '
+        'zelf, in de browser. Geef het een herkenbare naam en zet Google Analytics uit '
+        'als je het niet nodig hebt.</li>'
+        '<li><b>Laat je assistent de map koppelen:</b> <i>"koppel deze map aan mijn '
+        'Firebase-project [naam], met Hosting en Firestore. Kies productiemodus, niet '
+        'de testmodus."</i></li>'
+        '<li><b>Laat publiceren:</b> <i>"publiceer de site en geef me de URL"</i>. '
+        'Onder water is dat <code>firebase deploy</code>.</li>'
         '<li><b>Regel de beveiligingsregels vóór je iets echts opslaat.</b> Zie de '
-        'waarschuwing hieronder.</li>'
+        'waarschuwing verderop.</li>'
+        '</ol>')
+
+    p.tekst(
+        'Stappenplan F: laat mensen inloggen met Google',
+        '<p>Zodra je toepassing moet weten <i>wie</i> er iets doet — een aanmelding, '
+        'een persoonlijke lijst, iets wat niet iedereen mag zien — heb je inloggen '
+        'nodig. Bouw dat <b>nooit zelf</b>. Gebruik <b>Firebase Authentication met '
+        'Google-inloggen</b>: mensen klikken op één knop, loggen in met het '
+        'Google-account dat ze toch al hebben, en jij slaat nooit een wachtwoord '
+        'op.</p>'
+        '<p>Dat laatste is het echte voordeel. Wachtwoorden die je niet hebt, kun je '
+        'ook niet lekken. En je krijgt wachtwoord vergeten, tweestapsverificatie en '
+        'beveiliging tegen misbruik er gratis bij.</p>'
+        '<ol>'
+        '<li><b>Open de Firebase-console</b> en kies je project.</li>'
+        '<li><b>Ga naar Authentication en klik op Get started.</b></li>'
+        '<li><b>Kies bij Sign-in method de provider Google</b> en zet hem aan. Vul een '
+        'projectnaam en een support-mailadres in. Meer hoef je hier niet te doen.</li>'
+        '<li><b>Controleer de toegestane domeinen.</b> Publiceer je via Firebase '
+        'Hosting, dan staat dat er al; gebruik je een eigen domein, zet het erbij. '
+        'Vergeet <code>localhost</code> niet als je lokaal test.</li>'
+        '<li><b>Laat de inlogknop bouwen:</b> <i>"voeg Firebase Authentication met '
+        'Google-inloggen toe: een inlogknop, een uitlogknop, en toon de naam van de '
+        'ingelogde gebruiker. Gebruik de officiële Firebase-bibliotheek en leg uit wat '
+        'elk stuk doet."</i></li>'
+        '<li><b>Test met twee accounts.</b> Log in met je eigen account, en daarna in '
+        'een privévenster met een ander account. Ziet gebruiker B de gegevens van '
+        'gebruiker A? Dan kloppen je beveiligingsregels niet.</li>'
+        '<li><b>Beperk wie mag inloggen als dat nodig is.</b> Wil je alleen collega’s '
+        'toelaten, laat dan controleren op de domeinnaam van het mailadres — en zet '
+        'dat ook in je beveiligingsregels, niet alleen in de app, want de app kan '
+        'iemand omzeilen.</li>'
         '</ol>')
 
     p.aandacht(
@@ -139,12 +222,12 @@ def bouw(p):
         'database een tijdlang <b>open voor iedereen op internet</b> — lezen én '
         'schrijven. Dat is bedoeld om snel te kunnen beginnen, en het is de meest '
         'voorkomende manier waarop met AI gebouwde toepassingen gegevens lekken.</p>'
-        '<p>Wat je doet: kies de <b>productiemodus</b>, en schrijf daarna '
-        'beveiligingsregels die precies vastleggen wie wat mag. Vraag je '
-        'AI-assistent: <i>"schrijf Firestore-beveiligingsregels waarbij alleen '
-        'ingelogde gebruikers hun eigen gegevens kunnen lezen en schrijven, en leg per '
-        'regel uit wat hij doet"</i>. Test daarna in de Firebase-console met de '
-        'regelsimulator of een niet-ingelogde bezoeker er echt niet bij kan.</p>'
+        '<p>Wat je doet: kies de <b>productiemodus</b>, en laat daarna '
+        'beveiligingsregels schrijven die vastleggen wie wat mag. Vraag: <i>"schrijf '
+        'Firestore-beveiligingsregels waarbij alleen ingelogde gebruikers hun eigen '
+        'gegevens kunnen lezen en schrijven, en leg per regel uit wat hij doet"</i>. '
+        'Test daarna in de Firebase-console met de regelsimulator of een '
+        'niet-ingelogde bezoeker er echt niet bij kan.</p>'
         '<p>En nogmaals hoofdstuk 6: zet geen persoonsgegevens in een zelfgebouwde '
         'toepassing zonder dat iemand met verstand van zaken ernaar heeft '
         'gekeken.</p>')
@@ -152,18 +235,21 @@ def bouw(p):
     p.tekst(
         'Alternatief: alleen publiceren, zonder achterkant',
         '<p>Heb je alleen een website of een pagina die niets hoeft te bewaren, dan '
-        'heb je Firebase niet nodig. <b>GitHub Pages</b> is dan genoeg: zet je '
-        'bestanden in een repository, ga naar Settings → Pages, kies de branch, en je '
-        'site staat gratis online. Geen server, geen kosten, geen '
+        'heb je Firebase niet nodig. <b>GitHub Pages</b> is dan genoeg: je bestanden '
+        'staan al in een repository, dus vraag je assistent om Pages aan te zetten en '
+        'je krijgt een gratis URL. Geen server, geen kosten, geen '
         'beveiligingsregels.</p>')
 
     p.invulvelden(
-        'Oefening: zet je werkplek op en publiceer iets',
-        '<p>Neem wat je in hoofdstuk 13 gebouwd hebt en breng het naar buiten.</p>',
+        'Oefening: laat je werkplek inrichten en publiceer iets',
+        '<p>Neem wat je in hoofdstuk 13 gebouwd hebt en breng het naar buiten. Laat zo '
+        'veel mogelijk doen door je assistent.</p>',
         [
-            ('p14-installed', 'Welke onderdelen heb je geïnstalleerd? Waar liep je '
-             'vast?',
-             'Git, GitHub CLI, Node, Claude Code of Codex, Firebase CLI'),
+            ('p14-installed', 'Wat heeft je assistent geïnstalleerd, en wat ging er '
+             'mis?',
+             'Node, Git, gh, rtk, Firebase CLI — noteer de versienummers'),
+            ('p14-zelf', 'Welke stappen moest je zelf doen? Hoe verliep het koppelen?',
+             'Inloggen bij GitHub, Firebase, en je assistent'),
             ('p14-repo', 'Hoe heet je repository, en staat hij op private of public?',
              'En waarom die keuze?'),
             ('p14-commits', 'Beschrijf drie momenten waarop je een versie hebt '
@@ -172,13 +258,18 @@ def bouw(p):
             ('p14-online', 'Waar staat het nu online? Via GitHub Pages of Firebase?',
              'Plak de URL'),
             ('p14-regels', 'Als je Firebase gebruikt: welke beveiligingsregels heb je '
-             'ingesteld?',
-             'En hoe heb je gecontroleerd dat ze werken?'),
+             'ingesteld, en hoe heb je gecontroleerd dat ze werken?',
+             'Getest met een tweede account in een privévenster?'),
             ('p14-terug', 'Heb je een keer een wijziging teruggedraaid? Hoe ging dat?',
              'Probeer het bewust een keer — dat is de hele reden voor versiebeheer'),
+            ('p14-rtk', 'Wat laat "rtk gain" zien na een paar sessies?',
+             'Leuk om te zien hoeveel het scheelt'),
         ])
 
-    p.knoppenrij('Meenemen', '<p>Bewaar de commando’s die je het vaakst gebruikt in een eigen spiekbriefje.</p>')
+    p.knoppenrij(
+        'Meenemen',
+        '<p>Bewaar de opdrachten die je het vaakst aan je assistent geeft in een eigen '
+        'spiekbriefje — dat werkt beter dan commando’s onthouden.</p>')
 
     p.vraag(
         'Even checken',
@@ -196,7 +287,7 @@ def bouw(p):
             'title': 'Even checken',
             'correct': '<p>Precies. Testmodus betekent open lezen en schrijven voor '
                        'iedereen die de URL van je database kent. Kies productiemodus '
-                       'en schrijf beveiligingsregels vóór er echte gegevens in '
+                       'en laat beveiligingsregels schrijven vóór er echte gegevens in '
                        'komen.</p>',
             '_incorrect': {'final': '<p>Nog niet. Waar het om gaat is toegang: in '
                                     'testmodus staat je database open voor de hele '

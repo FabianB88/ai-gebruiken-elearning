@@ -37,6 +37,153 @@ def bouw(p):
         '</ul>')
 
     p.tekst(
+        'Andersom net zo belangrijk: wat je aanlevert',
+        '<p>Dit geldt niet alleen voor wat je terugkrijgt, maar ook voor wat je '
+        'erin stopt. Een AI leest niet elk bestandsformaat even goed. De volgorde, '
+        'van makkelijk naar moeilijk:</p>'
+        '<ol>'
+        '<li><b>.md en .txt</b> — het makkelijkst. Platte tekst met hooguit een paar '
+        'opmaaktekens. Er valt niets te reconstrueren, dus er gaat niets mis.</li>'
+        '<li><b>Word (.docx)</b> — gaat prima. De structuur zit er netjes in.</li>'
+        '<li><b>PDF</b> — het moeilijkst, met afstand.</li>'
+        '</ol>'
+        '<p>Waarom PDF zo lastig is: het is een <i>opmaak</i>formaat, geen '
+        'tekstformaat. Er staat niet "dit is een kop en dit is een tabel", er staat '
+        '"zet dit stukje tekst op deze positie". Kolommen lopen door elkaar, tabellen '
+        'vallen uit elkaar, kop- en voetteksten belanden midden in een zin, en een '
+        'gescande PDF is helemaal geen tekst maar een plaatje. Het model moet dat '
+        'allemaal reconstrueren — dat kost extra tokens én het gaat vaker mis.</p>'
+        '<p><b>De vuistregel: stop geen PDF in een gesprek als het niet hoeft.</b> Dat '
+        'scheelt je zowel tokens als fouten.</p>'
+        '<p>Heb je alleen een PDF? Laat er dan éérst een .md van maken en werk '
+        'daarmee verder. Dan betaal je die reconstructie één keer in plaats van bij '
+        'elke ronde, en je kunt zelf controleren of de omzetting klopt. Werk je met '
+        'een map op je eigen schijf (hoofdstuk 12), laat je assistent dan alle PDF’s '
+        'in één keer omzetten naar .md — daarna is de hele map lichter en '
+        'betrouwbaarder.</p>')
+
+    p.aandacht(
+        'Markdown is de spil, in beide richtingen',
+        '<p>Zie je het patroon? Markdown is niet alleen de handigste vorm om iets '
+        '<i>uit</i> een gesprek te krijgen, het is ook de beste vorm om iets '
+        '<i>in</i> te stoppen. Als je één werkgewoonte overhoudt uit dit hoofdstuk, is '
+        'het deze: <b>werk in .md, en zet pas op het laatste moment om naar het '
+        'formaat dat de ontvanger nodig heeft.</b></p>'
+        '<p>Dat omzetten is nauwelijks werk. In Claude kun je een Markdown-artifact '
+        'met één klik als PDF laten downloaden. Voor Word gebruik je de plakroute '
+        'hieronder of Pandoc. En omdat de bron .md blijft, kun je op elk moment nog '
+        'iets aanpassen zonder opnieuw te beginnen.</p>')
+
+    p.tekst(
+        'De harde grens: één antwoord kan maar zo lang zijn',
+        '<p>Naast het contextvenster — hoeveel het model kan <i>lezen</i> — is er een '
+        'tweede grens: hoeveel het in één antwoord kan <i>schrijven</i>. Die grens is '
+        'veel lager dan mensen denken en is de reden dat grote klussen mislukken.</p>'
+        '<p>Je herkent hem aan drie signalen:</p>'
+        '<ul>'
+        '<li>Het antwoord stopt <b>midden in een zin</b> of midden in een lijst.</li>'
+        '<li>Het begin is uitgewerkt en het eind wordt <b>steeds beknopter</b> — de '
+        'laatste hoofdstukken zijn ineens drie bullets.</li>'
+        '<li>Er staat iets als "en zo verder voor de overige onderdelen".</li>'
+        '</ul>'
+        '<p>Let op: de <b>kwaliteit zakt ruim voordat de limiet bereikt is</b>. Een '
+        'model dat aan één stuk door een compleet rapport moet produceren, wordt in '
+        'de tweede helft merkbaar oppervlakkiger. Wachten tot het afbreekt is dus te '
+        'laat — je wil de klus opknippen voordat je in de buurt komt.</p>'
+        '<p>De oplossing is niet "vraag om een langer antwoord". De oplossing is een '
+        'andere werkvorm kiezen. Er zijn er vijf, en het onderscheid ertussen is wat '
+        'dit hoofdstuk je moet opleveren.</p>')
+
+    p.accordeon(
+        'Vijf werkvormen voor werk dat niet in één antwoord past',
+        '<p>Ze sluiten elkaar niet uit — je gebruikt ze vaak achter elkaar. Maar kies '
+        'bewust, want de verkeerde werkvorm kost je een middag.</p>',
+        [
+            {'title': '1. In fases werken — als de inhoud nog moet ontstaan',
+             'body': '<p>Eerst de inhoudsopgave, die keur je goed. Dan per hoofdstuk '
+                     'de uitwerking, in een apart antwoord. Elk antwoord blijft ruim '
+                     'binnen de limiet en houdt zijn kwaliteit vast.</p>'
+                     '<p><b>Herken je aan:</b> je weet nog niet precies wat er in moet '
+                     'komen. Een rapport, een advies, een plan.</p>'
+                     '<p><b>Waarom dit werkt:</b> je corrigeert de structuur voordat er '
+                     'tienduizend tekens omheen zijn geschreven. Een verkeerde '
+                     'indeling ontdekken bij hoofdstuk 7 is duur.</p>'
+                     '<p><b>Valkuil:</b> in latere fases vergeet het model afspraken '
+                     'uit eerdere. Herhaal de kernafspraken kort per fase, of gebruik '
+                     'werkvorm 3.</p>'},
+            {'title': '2. Canvas of artifact — als één stuk tekst blijft veranderen',
+             'body': '<p>Claude noemt het een <b>artifact</b>, ChatGPT een '
+                     '<b>canvas</b>: de tekst komt in een apart venster naast het '
+                     'gesprek te staan, en je laat er gericht stukken in wijzigen '
+                     'zonder dat het geheel opnieuw geschreven wordt.</p>'
+                     '<p><b>Herken je aan:</b> één document, veel rondes. Een '
+                     'projectvoorstel dat vijf keer langs de opdrachtgever gaat.</p>'
+                     '<p><b>Waarom dit werkt:</b> je omzeilt de outputlimiet niet, '
+                     'maar je hoeft hem per ronde ook niet meer op te zoeken — alleen '
+                     'de wijziging gaat heen en weer in plaats van de hele tekst.</p>'
+                     '<p><b>Onderscheid met fases:</b> fases zijn voor tekst die nog '
+                     'moet ontstaan, canvas is voor tekst die er al is en beter '
+                     'moet.</p>'},
+            {'title': '3. In een project met bronbestanden — als de context groot is',
+             'body': '<p>De context (huisstijl, richtlijnen, bronmateriaal, eerdere '
+                     'stukken) staat vast in het project en hoeft niet in elk gesprek '
+                     'herhaald te worden. Elk antwoord kan daardoor volledig aan de '
+                     'inhoud besteed worden.</p>'
+                     '<p><b>Herken je aan:</b> je merkt dat je in elke ronde dezelfde '
+                     'uitleg opnieuw meestuurt, of dat het model afspraken '
+                     'kwijtraakt.</p>'
+                     '<p><b>Waarom dit werkt:</b> het lost het probleem aan de '
+                     '<i>invoerkant</i> op. Dat maakt het antwoord niet langer, maar '
+                     'wel beter besteed — en het houdt latere fases scherp.</p>'
+                     '<p><b>Onderscheid:</b> gebruik dit náást fases of canvas, niet '
+                     'in plaats daarvan. Zie hoofdstuk 7.</p>'},
+            {'title': '4. In bestanden op je eigen schijf — als het echt groot is',
+             'body': '<p>De AI schrijft niet in een chatvenster maar rechtstreeks naar '
+                     'bestanden in je werkmap: hoofdstuk voor hoofdstuk, bestand voor '
+                     'bestand. Er is dan <b>geen limiet meer per stuk</b>, want elk '
+                     'bestand is een eigen antwoord.</p>'
+                     '<p><b>Herken je aan:</b> het eindresultaat bestaat uit meerdere '
+                     'onderdelen. Een handleiding met tien hoofdstukken, een reeks '
+                     'documenten, een website.</p>'
+                     '<p><b>Waarom dit werkt:</b> je hoeft niets meer te plakken, je '
+                     'ziet per bestand of het klopt, en je kunt één onderdeel opnieuw '
+                     'laten doen zonder de rest aan te raken.</p>'
+                     '<p><b>Nodig:</b> hoofdstuk 12, plus versiebeheer uit hoofdstuk '
+                     '14 zodat je elke stap kunt terugdraaien.</p>'},
+            {'title': '5. Een generator bouwen — als het geheel zich herhaalt',
+             'body': '<p>De zwaarste en meest lonende vorm: je laat niet het '
+                     'eindproduct maken, maar het <b>ding dat het eindproduct '
+                     'maakt</b>. De inhoud staat in losse bronbestanden, en een '
+                     'zelfgeschreven programmaatje bouwt daar het geheel van.</p>'
+                     '<p><b>Herken je aan:</b> veel onderdelen met dezelfde vorm. Een '
+                     'website, een cursus, honderd persoonlijke brieven, een '
+                     'rapportage die elke maand terugkomt.</p>'
+                     '<p><b>Waarom dit werkt:</b> de outputlimiet verdwijnt volledig '
+                     'uit beeld. Je kunt één onderdeel wijzigen en het geheel in '
+                     'seconden opnieuw laten bouwen — zonder dat er ook maar iets '
+                     'opnieuw gegenereerd hoeft te worden.</p>'
+                     '<p><b>Voorbeeld:</b> precies zo is deze cursus gemaakt. Elk '
+                     'hoofdstuk is een bronbestand; één commando bouwt er de hele '
+                     'e-learning van. Zie hoofdstuk 13 en 14.</p>'},
+        ])
+
+    p.tekst(
+        'Welke werkvorm wanneer',
+        '<p>Kort samengevat, zodat je niet hoeft te gokken:</p>'
+        '<ul>'
+        '<li><b>Eén stuk, inhoud moet nog ontstaan</b> → in fases (1)</li>'
+        '<li><b>Eén stuk, bestaat al, moet beter</b> → canvas of artifact (2)</li>'
+        '<li><b>Steeds dezelfde context nodig</b> → project met bronbestanden (3), '
+        'naast 1 of 2</li>'
+        '<li><b>Meerdere onderdelen, eenmalig</b> → in bestanden op je schijf (4)</li>'
+        '<li><b>Meerdere onderdelen, herhaalt zich</b> → bouw een generator (5)</li>'
+        '</ul>'
+        '<p>De fout die het vaakst gemaakt wordt: werkvorm 1 of 2 gebruiken voor iets '
+        'dat eigenlijk 4 of 5 is. Je merkt dat doordat je steeds langere prompts typt '
+        'en steeds meer zit te plakken. Dat is het signaal om over te stappen, niet om '
+        'harder je best te doen.</p>')
+
+    p.tekst(
         'Stappenplan: van prompt naar Word-document met huisstijl',
         '<ol>'
         '<li><b>Vraag om Markdown, expliciet.</b> Zet in je prompt: <i>"Lever de '
@@ -144,7 +291,8 @@ def bouw(p):
              'Schrijf je eigen vuistregel op'),
         ])
 
-    p.knoppenrij('Meenemen', '<p>Zet je vuistregel in je project of custom GPT, dan hoef je het niet elke keer te herhalen.</p>')
+    p.knoppenrij('Meenemen', '<p>Zet je vuistregel in je projectinstructies, dan hoef je het niet elke keer '
+        'te herhalen.</p>')
 
     p.vraag(
         'Even checken',

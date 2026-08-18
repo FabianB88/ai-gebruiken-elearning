@@ -75,7 +75,7 @@ def bouw(p):
         '<li><b>Heb je actuele informatie nodig?</b> Zet zoeken aan en vraag om '
         'links. Zonder zoeken werkt het model uit zijn trainingsgeheugen.</li>'
         '<li><b>Doe je dit vaker?</b> Dan hoort het niet in een los gesprek maar in '
-        'een project of een custom GPT — daar gaat hoofdstuk 7 over.</li>'
+        'een project met vaste instructies — daar gaat hoofdstuk 7 over.</li>'
         '</ol>')
 
     p.accordeon(
@@ -86,14 +86,14 @@ def bouw(p):
             {'title': '1. De chat in je browser',
              'body': '<p>claude.ai of chatgpt.com. Waar iedereen begint. Prima voor '
                      'losse vragen, slecht voor werk dat je herhaalt.</p>'},
-            {'title': '2. Projecten en custom GPT’s',
+            {'title': '2. Projecten',
              'body': '<p>Een chat met vaste instructies en vaste bronbestanden. Je '
-                     'legt je context één keer vast in plaats van elke keer opnieuw. '
-                     'Hoofdstuk 7.</p>'},
+                     'legt je context één keer vast in plaats van elke keer opnieuw — '
+                     'een herhaalprompt. Hoofdstuk 7.</p>'},
             {'title': '3. Connectors',
-             'body': '<p>Koppelingen naar je eigen systemen: Drive, SharePoint, Teams, '
-                     'Canva, Slack. De AI haalt zelf op wat hij nodig heeft. '
-                     'Hoofdstuk 8.</p>'},
+             'body': '<p>Koppelingen naar je eigen systemen, zoals Google Drive en '
+                     'Canva. De AI haalt zelf op wat hij nodig heeft. Let op: Teams '
+                     'en SharePoint zijn bij ons geblokkeerd. Hoofdstuk 8.</p>'},
             {'title': '4. De browser',
              'body': '<p>Claude in Chrome of ChatGPT Atlas: de AI ziet je tabbladen en '
                      'kan klikken. Krachtig en risicovol. Hoofdstuk 9.</p>'},

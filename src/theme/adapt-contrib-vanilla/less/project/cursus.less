@@ -138,7 +138,15 @@
 
 .paginanav__rij {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+// Als er maar één knop staat, hoort die rechts
+.paginanav__rij > .paginanav__knop:only-child {
+  margin-left: auto;
 }
 
 .paginanav__knop {

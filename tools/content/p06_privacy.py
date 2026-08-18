@@ -8,14 +8,15 @@ def bouw(p):
         '<p><b>Zet nooit persoonsgegevens of vertrouwelijke informatie in een '
         'AI-gesprek.</b> Niet in een prompt, niet in een bijlage, niet in een '
         'screenshot, niet "even snel om te kijken of het werkt".</p>'
-        '<p>Dat klinkt streng, en dat is het ook. De reden is simpel: zodra jij '
-        'persoonsgegevens door een AI-systeem haalt, ben je volgens de AVG '
-        'verwerkingsverantwoordelijke. Dan moet je kunnen uitleggen waarom je het '
-        'deed, op welke grondslag, waar de gegevens terechtkomen en hoe lang ze '
-        'blijven staan. Bij een gratis account kun je dat niet, want je hebt geen '
-        'verwerkersovereenkomst.</p>'
-        '<p>Dit hoofdstuk gaat over hoe je dat praktisch oplost, zonder dat je '
-        'daardoor niets meer met AI kunt doen. Want dat hoeft niet.</p>')
+        '<p>Bij ons is die regel absoluut, en dat komt door hoe we werken: iedereen '
+        'gebruikt AI <b>op persoonlijke titel</b>, met een eigen Claude Pro of ChatGPT '
+        'Plus. Daar hoort geen verwerkersovereenkomst bij. En zonder '
+        'verwerkersovereenkomst kun je een verwerking van persoonsgegevens niet '
+        'verantwoorden — er is geen afspraak over waar de gegevens heen gaan, wie '
+        'erbij kan en hoe lang ze blijven staan.</p>'
+        '<p>Er is dus geen "ja, maar in dit geval mag het wel". Dit hoofdstuk gaat '
+        'over hoe je binnen die grens tóch bijna alles kunt doen — plus twee '
+        'instellingen die je vandaag nog goedzet.</p>')
 
     p.tekst(
         'Wat telt als persoonsgegeven — ruimer dan je denkt',
@@ -40,46 +41,120 @@ def bouw(p):
         '<p>Gezondheid, ras of etnische afkomst, politieke opvattingen, geloof, '
         'vakbondslidmaatschap, seksuele geaardheid, biometrie, strafrechtelijke '
         'gegevens. Deze categorie is extra beschermd en hoort onder geen enkele '
-        'omstandigheid in een AI-gesprek — ook niet met een zakelijk contract, ook '
-        'niet "geanonimiseerd".</p>')
+        'omstandigheid in een AI-gesprek — ook niet "geanonimiseerd".</p>')
 
     p.tekst(
-        'Gratis account versus zakelijk account',
-        '<p>Het verschil is groter dan alleen betalen.</p>'
+        'Log in met je eigen privé-account, nooit met je werkaccount',
+        '<p>Dit is bij ons de afspraak: je maakt je AI-account aan op je persoonlijke '
+        'mailadres, en je logt nooit in met je werkmail of via "inloggen met '
+        'Microsoft/Google" van je werkomgeving.</p>'
+        '<p>Waarom dat uitmaakt:</p>'
         '<ul>'
-        '<li><b>Gratis of persoonlijk betaald account.</b> Geen '
-        'verwerkersovereenkomst. Je invoer kan gebruikt worden om modellen te '
-        'trainen, tenzij je dat zelf uitzet — en of je dat gedaan hebt, kun je niet '
-        'aantonen aan een toezichthouder. Voor privéwerk prima, voor werk met '
-        'gegevens van anderen niet.</li>'
-        '<li><b>Zakelijk account (Team, Business, Enterprise) of de API.</b> Hier '
-        'hoort een verwerkersovereenkomst bij, wordt je invoer standaard niet voor '
-        'training gebruikt, en zijn er afspraken over bewaartermijnen en '
-        'toegang.</li>'
+        '<li><b>Je koppelt de organisatie niet aan een dienst waarover niets is '
+        'afgesproken.</b> Een account op werkmail suggereert dat het gebruik namens '
+        'de organisatie gebeurt, terwijl er geen contract, geen '
+        'verwerkersovereenkomst en geen beheer achter zit.</li>'
+        '<li><b>Inloggen met je werkaccount opent deuren die je niet wilt '
+        'openzetten.</b> Bij "inloggen met Microsoft" kan een dienst toestemming '
+        'vragen voor je agenda, je bestanden of je contacten. Op een privé-account kan '
+        'dat niet per ongeluk.</li>'
+        '<li><b>Het houdt de grens scherp.</b> Werk je bewust op persoonlijke titel, '
+        'dan blijf je je ervan bewust dat er geen bedrijfsgegevens in horen. Dat is '
+        'precies het gedrag dat we willen.</li>'
         '</ul>'
-        '<p>Werkt jouw organisatie met een zakelijk account, gebruik dat dan ook — en '
-        'niet je privé-account omdat dat toevallig al openstaat. Is er nog geen '
-        'zakelijk account, dan is dat het eerste wat je regelt voordat je AI serieus '
-        'inzet.</p>')
+        '<p>Gebruik je Claude of ChatGPT al met je werkmail? Maak dan een nieuw '
+        'account aan op je privémailadres en ga daar verder. Loop je oude '
+        'gespreksgeschiedenis na en verwijder wat er niet in hoort.</p>')
 
     p.tekst(
-        'Stappenplan: je eigen account nalopen',
-        '<p>Doe dit vandaag, het kost vijf minuten.</p>'
+        'Zet modeltraining uit — dit is de belangrijkste instelling die er is',
+        '<p>Op een persoonlijk account worden je gesprekken standaard gebruikt om '
+        'modellen te verbeteren. Bij Claude staat dat sinds oktober 2025 '
+        '<b>standaard aan</b> voor Free-, Pro- en Max-accounts. Je moet het dus zelf '
+        'uitzetten; er gebeurt niets als je niets doet.</p>'
+        '<p>Er hangt meer aan vast dan alleen training. Bij Claude bepaalt deze knop '
+        'ook hoe lang je gegevens bewaard blijven: staat training <b>aan</b>, dan mag '
+        'Anthropic je gesprekken in geanonimiseerde vorm tot vijf jaar bewaren. Zet je '
+        'hem <b>uit</b>, dan val je terug op de standaard bewaartermijn van dertig '
+        'dagen. Dat is een verschil van jaren, met één klik.</p>')
+
+    p.accordeon(
+        'Letterlijk: zo zet je het uit',
+        '<p>Doe dit nu, het kost per platform een halve minuut. Klap open wat je '
+        'gebruikt.</p>',
+        [
+            {'title': 'Claude (Pro, Max of Free)',
+             'body': '<ol>'
+                     '<li>Ga naar <b>claude.ai</b> en log in.</li>'
+                     '<li>Klik <b>linksonder op je naam of initialen</b>.</li>'
+                     '<li>Kies <b>Settings</b> (Instellingen).</li>'
+                     '<li>Ga naar <b>Privacy</b> — bij sommige versies heet dit '
+                     '<i>Privacy Settings</i>.</li>'
+                     '<li>Zoek de schakelaar <b>"Help improve Claude"</b> (Help Claude '
+                     'verbeteren) en zet hem <b>uit</b>.</li>'
+                     '<li>Controleer dat de schakelaar daadwerkelijk grijs of uit '
+                     'staat en ververs de pagina om zeker te weten dat het bewaard '
+                     'is.</li>'
+                     '</ol>'
+                     '<p><b>Wat het wel doet:</b> nieuwe gesprekken en codesessies '
+                     'worden niet meer gebruikt voor toekomstige training, en je '
+                     'bewaartermijn gaat terug naar dertig dagen.</p>'
+                     '<p><b>Wat het niet doet:</b> gesprekken die al in een lopende '
+                     'training zijn meegenomen, haal je er niet meer uit. En als een '
+                     'veiligheidsfilter een gesprek markeert, kan het alsnog gebruikt '
+                     'worden voor veiligheidsonderzoek. Uitzetten is dus belangrijk, '
+                     'maar het is geen wisser met terugwerkende kracht — en het is '
+                     'geen vervanging voor de regel bovenaan dit hoofdstuk.</p>'},
+            {'title': 'ChatGPT (Plus, Pro, Go of Free)',
+             'body': '<ol>'
+                     '<li>Ga naar <b>chatgpt.com</b> en log in.</li>'
+                     '<li>Klik <b>rechtsboven of linksonder op je profiel</b> en kies '
+                     '<b>Instellingen</b>.</li>'
+                     '<li>Ga naar <b>Gegevensbeheer</b> (Data controls).</li>'
+                     '<li>Zet <b>"Het model voor iedereen verbeteren"</b> (Improve the '
+                     'model for everyone) <b>uit</b>.</li>'
+                     '<li>Kijk meteen ook naar de andere schakelaars in dit scherm, '
+                     'zoals het bewaren van gespreksgeschiedenis, en zet die naar je '
+                     'hand.</li>'
+                     '</ol>'
+                     '<p><b>Let op:</b> deze instelling zit per account. Gebruik je '
+                     'ChatGPT ook op je telefoon of in een andere browser, dan is dat '
+                     'hetzelfde account en hoef je het maar één keer te doen — maar '
+                     'controleer het wel even.</p>'},
+            {'title': 'Tijdelijke gesprekken: de snelste noodrem',
+             'body': '<p>Beide platforms hebben een modus voor gesprekken die niet '
+                     'bewaard worden en niet in je geschiedenis komen — bij ChatGPT '
+                     'heet dat een <i>tijdelijke chat</i>, bij Claude vind je een '
+                     'vergelijkbare optie bij het starten van een gesprek.</p>'
+                     '<p>Handig als je iets eenmaligs vraagt dat je niet in je '
+                     'geschiedenis wilt hebben. Maar let op: het is een '
+                     'opslag-instelling, geen beschermingsmuur. Wat je erin typt, gaat '
+                     'nog steeds naar de servers. Het is geen excuus om er alsnog '
+                     'persoonsgegevens in te zetten.</p>'},
+        ])
+
+    p.tekst(
+        'Stappenplan: je account in orde maken',
+        '<p>Doe dit vandaag, het kost tien minuten en het is klaar voor de rest van '
+        'het jaar.</p>'
         '<ol>'
-        '<li><b>Kijk met welk account je bent ingelogd.</b> Privé of zakelijk? Staat '
-        'er een organisatienaam bij? Bij twijfel: vraag het je '
-        'systeembeheerder.</li>'
-        '<li><b>Zoek de trainingsinstelling op.</b> Bij ChatGPT staat die onder '
-        'Instellingen bij de data-instellingen; bij Claude onder je profiel bij '
-        'privacy. Zet het gebruik van je gesprekken voor modelverbetering '
-        '<b>uit</b>.</li>'
-        '<li><b>Controleer of er een verwerkersovereenkomst is.</b> Weet je het niet, '
-        'dan is het antwoord in de praktijk nee.</li>'
-        '<li><b>Ruim je gespreksgeschiedenis op.</b> Staat er nog iets in dat er niet '
-        'had moeten staan, verwijder het en meld het volgens de procedure van je '
-        'organisatie.</li>'
-        '<li><b>Spreek af waar je collega’s werken.</b> Eén gedeelde zakelijke '
-        'omgeving is veiliger dan tien losse privé-accounts.</li>'
+        '<li><b>Controleer met welk account je bent ingelogd.</b> Staat er een '
+        'werkmailadres of een organisatienaam? Dan maak je een nieuw account aan op '
+        'je privémailadres.</li>'
+        '<li><b>Zet modeltraining uit</b> volgens de stappen hierboven, bij elk '
+        'platform dat je gebruikt.</li>'
+        '<li><b>Loop je gespreksgeschiedenis na.</b> Staat er iets in dat er niet had '
+        'moeten staan — namen, klantgegevens, een geüpload dossier — verwijder het '
+        'gesprek en meld het volgens de procedure van je organisatie.</li>'
+        '<li><b>Controleer je gekoppelde apps.</b> Heb je ooit "inloggen met Google" '
+        'of "inloggen met Microsoft" gebruikt, trek die toestemming dan in bij je '
+        'Google- of Microsoft-account.</li>'
+        '<li><b>Kijk of het geheugen aan staat</b> en wat erin is opgeslagen. In '
+        'hoofdstuk 11 zet je daar bewust regels in; ruim nu eerst op wat er niet '
+        'hoort.</li>'
+        '<li><b>Zet een herinnering over zes maanden</b> om dit opnieuw te doen. '
+        'Instellingen veranderen, en standaardwaarden gaan bijna altijd de kant op '
+        'van méér delen, niet minder.</li>'
         '</ol>')
 
     p.tekst(
@@ -137,24 +212,30 @@ def bouw(p):
         'op moeten letten.</p>')
 
     p.invulvelden(
-        'Oefening: maak deze casus veilig',
-        '<p>Iemand wil dit vragen aan ChatGPT:</p>'
+        'Oefening: instellingen goedzetten en een casus veilig maken',
+        '<p>Eerst je account, dan de casus. Iemand wil dit vragen aan ChatGPT:</p>'
         '<blockquote><p><i>"Hierbij het verslag van het gesprek met Karin de Vries '
         '(personeelsnummer 44821) over haar verzuim. Ze geeft aan dat het te maken '
         'heeft met haar rugklachten en de spanning thuis. Kun je hier een '
         'verslaglegging van maken voor het dossier en adviseren over '
-        'vervolgstappen?"</i></p></blockquote>'
-        '<p>Zoek uit wat hier misgaat en schrijf een werkwijze die wél kan.</p>',
+        'vervolgstappen?"</i></p></blockquote>',
         [
-            ('p06-fouten', 'Welke problemen zitten er in deze vraag? Noem ze allemaal.',
+            ('p06-account', 'Met welk account werk je, en heb je het aangepast?',
+             'Privémailadres, of nog werkmail?'),
+            ('p06-training', 'Heb je modeltraining uitgezet? Bij welke platforms, en '
+             'waar stond de knop precies?',
+             'Schrijf het pad op, dan vind je het volgende keer terug'),
+            ('p06-opgeruimd', 'Wat kwam je tegen bij het nalopen van je '
+             'gespreksgeschiedenis?',
+             'Eerlijk antwoord; het blijft in je eigen browser'),
+            ('p06-fouten', 'Welke problemen zitten er in de casus hierboven? Noem ze '
+             'allemaal.',
              'Denk aan: welke categorieën gegevens staan hier in?'),
-            ('p06-hard', 'Welk deel kan zelfs met een zakelijk account niet? Waarom?',
+            ('p06-hard', 'Welk deel mag onder geen enkele omstandigheid, ook niet '
+             'geanonimiseerd? Waarom?',
              'Er zit een categorie in die extra beschermd is'),
             ('p06-alternatief', 'Hoe zou jij deze taak wél met AI aanpakken?',
              'Denk aan sjablonen in plaats van gevallen'),
-            ('p06-eigen', 'Welke informatie plakte jij tot nu toe wel eens in een '
-             'AI-gesprek die daar niet hoort?',
-             'Eerlijk antwoord; het blijft in je eigen browser'),
         ])
 
     p.knoppenrij(
@@ -164,27 +245,29 @@ def bouw(p):
 
     p.vraag(
         'Even checken',
-        'Je wilt AI laten helpen bij het samenvatten van klantgesprekken. Welke aanpak '
-        'is verantwoord?',
+        'Je hebt bij Claude de instelling "Help improve Claude" uitgezet. Wat betekent '
+        'dat wel en niet?',
         [
-            ('Namen, nummers en herleidbare details eruit halen, en werken in een '
-             'zakelijke omgeving met verwerkersovereenkomst.', True),
-            ('Gewoon plakken; het gaat om zakelijke gesprekken, geen privézaken.', False),
-            ('Alleen de achternamen weglaten en de rest laten staan.', False),
-            ('Een privé-account gebruiken zodat het niet aan de organisatie '
-             'gekoppeld is.', False),
+            ('Nieuwe gesprekken worden niet meer voor training gebruikt en je '
+             'bewaartermijn gaat terug naar dertig dagen — maar het is geen '
+             'verwerkersovereenkomst, dus persoonsgegevens blijven verboden.', True),
+            ('Je gegevens blijven nu volledig op je eigen computer.', False),
+            ('Alles wat je eerder hebt getypt, wordt met terugwerkende kracht uit de '
+             'modellen verwijderd.', False),
+            ('Je mag nu wel klantgegevens gebruiken, want er wordt niets meer mee '
+             'gedaan.', False),
         ],
         feedback={
             'title': 'Even checken',
-            'correct': '<p>Klopt. Twee lagen: anonimiseren aan de voorkant én een '
-                       'omgeving waarin de verwerking geregeld is. Eén van de twee is '
-                       'niet genoeg.</p>',
-            '_incorrect': {'final': '<p>Nog niet. Zakelijke gesprekken bevatten '
-                                    'persoonsgegevens van klanten. Alleen achternamen '
-                                    'weglaten maakt iets niet anoniem — functie plus '
-                                    'organisatie is vaak al herleidbaar. En een '
-                                    'privé-account maakt het probleem groter, niet '
-                                    'kleiner: dan is er helemaal geen '
-                                    'verwerkersovereenkomst.</p>'},
+            'correct': '<p>Precies. Het is een belangrijke instelling — vooral vanwege '
+                       'die bewaartermijn van dertig dagen in plaats van jaren — maar '
+                       'het verandert niets aan de grondslag. Zonder '
+                       'verwerkersovereenkomst blijft de regel over persoonsgegevens '
+                       'absoluut.</p>',
+            '_incorrect': {'final': '<p>Nog niet. De knop regelt twee dingen: geen '
+                                    'nieuwe training, en een kortere bewaartermijn. Wat '
+                                    'al gebruikt is, komt er niet meer uit, je gegevens '
+                                    'gaan nog steeds naar de servers, en de AVG-grens '
+                                    'schuift er niet door op.</p>'},
             '_partlyCorrect': {'final': '<p>Nog niet helemaal.</p>'}
         })

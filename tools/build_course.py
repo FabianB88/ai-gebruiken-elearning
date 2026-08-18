@@ -97,16 +97,22 @@ for index, regel in enumerate(cursus.PAGINAS, start=1):
     # Navigatie naar het volgende onderdeel. Bewust een gewone link en geen
     # trickle-knop: die gaat pas aan als Adapt de pagina als gezien markeert,
     # en dat hangt aan zichtbaarheidsdetectie die niet betrouwbaar te testen is.
+    # Links een home-knop terug naar het menu, rechts de volgende pagina.
+    home = ('<a class="paginanav__knop paginanav__knop--stil" href="#/">'
+            '<span class="paginanav__label">Terug naar</span>'
+            '<span class="paginanav__titel">Overzicht</span></a>')
+
     volgende = cursus.PAGINAS[index] if index < len(cursus.PAGINAS) else None
     if volgende:
         link = ('<a class="paginanav__knop" href="#/id/co-%d">'
                 '<span class="paginanav__label">Volgende onderdeel</span>'
                 '<span class="paginanav__titel">%s</span></a>' % (index + 1, volgende[1]))
     else:
-        link = ('<a class="paginanav__knop paginanav__knop--stil" href="#/id/co-1">'
+        link = ('<a class="paginanav__knop" href="#/id/co-1">'
                 '<span class="paginanav__label">Terug naar het begin</span>'
                 '<span class="paginanav__titel">%s</span></a>' % cursus.PAGINAS[0][1])
-    pagina.tekst('', '<div class="paginanav__rij">%s</div>' % link).update({'_classes': 'paginanav'})
+    pagina.tekst('', '<div class="paginanav__rij">%s%s</div>'
+                 % (home, link)).update({'_classes': 'paginanav'})
     pagina.blokken[-1]['_classes'] = 'separator paginanav'
 
     blocks.extend(pagina.blokken)

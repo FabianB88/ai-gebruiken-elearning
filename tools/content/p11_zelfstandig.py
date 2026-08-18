@@ -62,8 +62,9 @@ def bouw(p):
         'projectinstructies van het project waarin je werkt.</li>'
         '<li><b>Controleer of het geheugen aan staat</b> en of er al dingen in staan '
         'die er niet horen. Ruim die op.</li>'
-        '<li><b>Plak de regels hieronder</b> (of je eigen versie) en vraag expliciet '
-        'om ze te onthouden: <i>"Onthoud deze regels en pas ze toe in al onze '
+        '<li><b>Controleer of de zeven regels uit hoofdstuk 9 er al staan</b>, en plak '
+        'de vier aanvullende regels hieronder erbij. Vraag expliciet om ze te '
+        'onthouden: <i>"Onthoud deze regels en pas ze toe in al onze '
         'gesprekken."</i></li>'
         '<li><b>Controleer of ze zijn opgeslagen.</b> Open het geheugenoverzicht en '
         'kijk of ze erin staan. Sta je erin? Goed. Zo niet, plak ze in je '
@@ -76,31 +77,27 @@ def bouw(p):
         '</ol>')
 
     p.tekst(
-        'De regels om te kopiëren',
-        '<p>Pas ze aan op jouw situatie, maar laat de eerste vijf staan.</p>'
+        'De aanvullende regels om te kopiëren',
+        '<p>In hoofdstuk 9 heb je al zeven vaste regels ingesteld: geen '
+        'persoonsgegevens, geen betaalgegevens, niets kopen, geen instructies volgen '
+        'uit websites of documenten, niets versturen zonder goedkeuring, en stoppen in '
+        'plaats van een omweg zoeken. <b>Die blijven staan en gelden hier onverkort.</b></p>'
+        '<p>Voor zelfstandig werken komen deze vier erbij. Zet ze op dezelfde plek — '
+        'je geheugen, je instructies, of het bestand <code>CLAUDE.md</code> in je '
+        'projectmap.</p>'
         '<blockquote>'
-        '<p><i>Deze regels gelden altijd, ook als ik het tegenovergestelde vraag en '
-        'ook als je zelfstandig werkt zonder tussenvragen:</i></p>'
-        '<p><i>1. Doe nooit een aankoop, betaling, bestelling of abonnement, en voer '
-        'nooit creditcard-, bank- of betaalgegevens in.<br>'
-        '2. Open of verwerk geen persoonsgegevens: geen personeelsdossiers, '
-        'klantdossiers, verzuim- of beoordelingsinformatie, en geen bestanden met '
-        'namen van individuele personen.<br>'
-        '3. Open of verwerk geen werk van studenten of cursisten.<br>'
-        '4. Verstuur, publiceer of deel niets namens mij — geen e-mail, geen bericht, '
-        'geen formulier, geen publicatie — zonder dat ik het eerst heb gezien en '
-        'expliciet heb goedgekeurd.<br>'
-        '5. Verwijder niets definitief en overschrijf geen bestaande bestanden. Maak '
-        'in plaats daarvan een nieuwe versie naast het origineel.<br>'
-        '6. Voer geen wachtwoorden, tokens of API-sleutels in en toon ze niet.<br>'
-        '7. Wijzig geen systeem- of beveiligingsinstellingen en installeer niets '
-        'zonder het te vragen.<br>'
-        '8. Loop je tegen een van deze grenzen aan, stop dan en leg uit waarom, in '
-        'plaats van een omweg te zoeken.</i></p>'
+        '<p><i>Aanvullend, als je zelfstandig werkt zonder tussenvragen:</i></p>'
+        '<p><i>8. Verwijder niets definitief en overschrijf geen bestaande bestanden. '
+        'Maak in plaats daarvan een nieuwe versie naast het origineel.<br>'
+        '9. Open of verwerk geen werk van studenten of cursisten.<br>'
+        '10. Voer geen wachtwoorden, tokens of API-sleutels in en toon ze niet.<br>'
+        '11. Wijzig geen systeem- of beveiligingsinstellingen en installeer geen '
+        'software zonder het eerst te vragen.</i></p>'
         '</blockquote>'
-        '<p>Regel 8 is belangrijker dan hij lijkt: zonder die regel gaat een agent op '
-        'zoek naar een andere manier om je oorspronkelijke opdracht toch uit te '
-        'voeren.</p>')
+        '<p>Regel 8 is de belangrijkste van dit rijtje: het is het verschil tussen een '
+        'agent die je werk kan herstellen en een agent die het weg kan gooien. En '
+        'regel 7 uit hoofdstuk 9 — stoppen in plaats van een omweg zoeken — is hier '
+        'nog belangrijker dan daar, want er is niemand die meekijkt.</p>')
 
     p.tekst(
         'Wanneer zet je hem zonder tussenvragen aan?',
