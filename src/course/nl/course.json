@@ -1,0 +1,62 @@
+{
+  "_id": "course",
+  "_type": "course",
+  "_courseId": "ai-gebruiken",
+  "title": "AI leren gebruiken",
+  "displayTitle": "AI leren gebruiken",
+  "subtitle": "Van je eerste prompt tot AI die op je eigen machine meewerkt",
+  "description": "Green Office",
+  "body": "Een praktische cursus voor wie AI serieus wil inzetten in het werk. Je begint bij prompten en privacy, richt daarna je eigen assistenten en koppelingen in, en eindigt met AI die in je eigen bestanden werkt en meebouwt aan je projecten. Elk hoofdstuk heeft een stappenplan en een oefening die je meteen kunt doen.",
+  "instruction": "",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Nakijken",
+      "ariaLabel": "Kijk mijn antwoord na"
+    },
+    "_reset": {
+      "buttonText": "Opnieuw",
+      "ariaLabel": "Probeer deze vraag opnieuw"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Toon antwoord",
+      "ariaLabel": "Toon het juiste antwoord"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Mijn antwoord",
+      "ariaLabel": "Toon mijn eigen antwoord"
+    },
+    "_showFeedback": {
+      "buttonText": "Toelichting",
+      "ariaLabel": "Toon de toelichting"
+    }
+  },
+  "_globals": {
+    "_menu": {
+      "_boxMenu": {
+        "durationLabel": "Tijd:"
+      }
+    },
+    "_accessibility": {
+      "_ariaLabels": {
+        "skipNavigation": "Ga direct naar de inhoud",
+        "navigation": "Hoofdnavigatie",
+        "previous": "Vorige",
+        "next": "Volgende",
+        "close": "Sluiten",
+        "closeDrawer": "Sluit het zijpaneel",
+        "drawer": "Extra informatie",
+        "complete": "Afgerond",
+        "incomplete": "Nog niet afgerond",
+        "correct": "Goed",
+        "incorrect": "Fout",
+        "selectedAnswer": "gekozen",
+        "unselectedAnswer": "niet gekozen",
+        "answeredIncorrectly": "Je antwoord was fout",
+        "answeredCorrectly": "Je antwoord was goed",
+        "selectAnswer": "Kies een antwoord",
+        "done": "Klaar"
+      }
+    }
+  },
+  "_latestTrackingId": 155
+}

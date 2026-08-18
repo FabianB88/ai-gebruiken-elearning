@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" role="img" aria-label="Vergelijking tussen data naar de AI brengen en de AI naar je data brengen">
+  <style>
+    .t { font-family: Lato, Helvetica, Arial, sans-serif; }
+    .hd  { font-size: 16px; font-weight: 700; fill: #47613F; }
+    .box { font-size: 14px; font-weight: 700; fill: #2E2A26; }
+    .sm  { font-size: 13px; fill: #57504A; }
+    .cap { font-size: 13px; fill: #57504A; font-style: italic; }
+    .step{ font-size: 13px; fill: #57504A; }
+  </style>
+  <defs>
+    <marker id="pijl" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#7A6E66"/>
+    </marker>
+    <marker id="pijlgroen" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <polygon points="0 0, 8 3.5, 0 7" fill="#47613F"/>
+    </marker>
+  </defs>
+  <rect width="700" height="400" fill="#FBF8F3"/>
+
+  <!-- linkerpaneel -->
+  <rect x="16" y="16" width="326" height="316" rx="6" fill="#F3EFE8" stroke="#B0A49A" stroke-width="1" stroke-dasharray="5 4"/>
+  <text class="t hd" x="36" y="46">De gewone manier</text>
+  <text class="t sm" x="36" y="66">Jij brengt je informatie naar de AI</text>
+
+  <rect x="36" y="88" width="120" height="58" rx="5" fill="#FFFFFF" stroke="#7A6E66" stroke-width="1.5"/>
+  <text class="t box" x="96" y="112" text-anchor="middle">Jouw map</text>
+  <text class="t sm"  x="96" y="131" text-anchor="middle">100 bestanden</text>
+
+  <line x1="162" y1="117" x2="200" y2="117" stroke="#7A6E66" stroke-width="2" marker-end="url(#pijl)"/>
+
+  <rect x="206" y="88" width="120" height="58" rx="5" fill="#FFFFFF" stroke="#7A6E66" stroke-width="1.5"/>
+  <text class="t box" x="266" y="112" text-anchor="middle">Chatvenster</text>
+  <text class="t sm"  x="266" y="131" text-anchor="middle">1 geplakt stuk</text>
+
+  <text class="t step" x="36" y="182">Elke keer opnieuw:</text>
+  <text class="t step" x="36" y="204">1. zoeken welk bestand het was</text>
+  <text class="t step" x="36" y="226">2. openen en het juiste stuk vinden</text>
+  <text class="t step" x="36" y="248">3. kopi&#235;ren en plakken</text>
+  <text class="t step" x="36" y="270">4. bij de volgende vraag: weer opnieuw</text>
+  <text class="t sm"   x="36" y="304">Gevolg: je stelt alleen vragen die de moeite</text>
+  <text class="t sm"   x="36" y="322">van het plakken waard zijn.</text>
+
+  <!-- rechterpaneel -->
+  <rect x="358" y="16" width="326" height="316" rx="6" fill="#E3EBDF" stroke="#5C7A5A" stroke-width="2"/>
+  <text class="t hd" x="378" y="46">De omgekeerde manier</text>
+  <text class="t sm" x="378" y="66">Je brengt de AI naar je informatie</text>
+
+  <rect x="378" y="88" width="120" height="58" rx="5" fill="#FFFFFF" stroke="#47613F" stroke-width="1.5"/>
+  <text class="t box" x="438" y="112" text-anchor="middle">Jouw werkmap</text>
+  <text class="t sm"  x="438" y="131" text-anchor="middle">afgebakend</text>
+
+  <line x1="504" y1="117" x2="542" y2="117" stroke="#47613F" stroke-width="2" marker-end="url(#pijlgroen)"/>
+  <line x1="542" y1="132" x2="504" y2="132" stroke="#47613F" stroke-width="2" marker-end="url(#pijlgroen)"/>
+
+  <rect x="548" y="88" width="120" height="58" rx="5" fill="#FFFFFF" stroke="#47613F" stroke-width="1.5"/>
+  <text class="t box" x="608" y="112" text-anchor="middle">AI-assistent</text>
+  <text class="t sm"  x="608" y="131" text-anchor="middle">leest en schrijft</text>
+
+  <text class="t step" x="378" y="182">Eenmalig instellen, daarna:</text>
+  <text class="t step" x="378" y="204">&#8226; vragen over de hele map tegelijk</text>
+  <text class="t step" x="378" y="226">&#8226; bestanden ordenen en hernoemen</text>
+  <text class="t step" x="378" y="248">&#8226; resultaten als nieuw bestand terug</text>
+  <text class="t step" x="378" y="270">&#8226; geen kopi&#235;ren en plakken meer</text>
+  <text class="t sm"   x="378" y="304">Gevolg: je vraagt dingen die je eerst</text>
+  <text class="t sm"   x="378" y="322">niet de moeite vond.</text>
+
+  <!-- voetnoot -->
+  <rect x="16" y="344" width="668" height="42" rx="5" fill="#F3EFE8" stroke="#7A6E66" stroke-width="1.5"/>
+  <text class="t cap" x="32" y="362">Let op: in beide gevallen gaat alles wat de AI opent naar de servers van de aanbieder.</text>
+  <text class="t cap" x="32" y="379">Rechts blijft alleen bespaard wat de AI niet leest &#8212; het is gemak, geen privacy-oplossing.</text>
+</svg>

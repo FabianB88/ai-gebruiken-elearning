@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" role="img" aria-label="Schema van de zes bouwstenen van een prompt">
+  <style>
+    .t { font-family: Lato, Helvetica, Arial, sans-serif; }
+    .num { font-size: 15px; font-weight: 700; fill: #ffffff; }
+    .lbl { font-size: 16px; font-weight: 700; fill: #2E2A26; }
+    .ex  { font-size: 13.5px; fill: #57504A; }
+    .cap { font-size: 13px; fill: #57504A; font-style: italic; }
+    .hd  { font-size: 17px; font-weight: 700; fill: #47613F; }
+  </style>
+  <rect width="700" height="470" fill="#FBF8F3"/>
+
+  <text class="t hd" x="20" y="30">De zes bouwstenen van een prompt</text>
+  <line x1="20" y1="42" x2="680" y2="42" stroke="#B0A49A" stroke-width="1"/>
+
+  <!-- 1 Rol -->
+  <rect x="20" y="58" width="660" height="56" rx="5" fill="#EFEAE1" stroke="#B0A49A" stroke-width="1"/>
+  <rect x="20" y="58" width="6" height="56" rx="3" fill="#5C7A5A"/>
+  <circle cx="52" cy="86" r="14" fill="#5C7A5A"/>
+  <text class="t num" x="52" y="91" text-anchor="middle">1</text>
+  <text class="t lbl" x="80" y="81">Rol</text>
+  <text class="t ex"  x="80" y="101">Welke expert zou je hiervoor inhuren? &#8220;Je bent een ervaren subsidieadviseur.&#8221;</text>
+
+  <!-- 2 Gebruiker -->
+  <rect x="20" y="122" width="660" height="56" rx="5" fill="#EFEAE1" stroke="#B0A49A" stroke-width="1"/>
+  <rect x="20" y="122" width="6" height="56" rx="3" fill="#5C7A5A"/>
+  <circle cx="52" cy="150" r="14" fill="#5C7A5A"/>
+  <text class="t num" x="52" y="155" text-anchor="middle">2</text>
+  <text class="t lbl" x="80" y="145">Gebruiker en kennisniveau</text>
+  <text class="t ex"  x="80" y="165">Wie ben jij en wat weet je al? Stuurt het niveau van het antwoord.</text>
+
+  <!-- 3 Taak -->
+  <rect x="20" y="186" width="660" height="56" rx="5" fill="#EFEAE1" stroke="#B0A49A" stroke-width="1"/>
+  <rect x="20" y="186" width="6" height="56" rx="3" fill="#5C7A5A"/>
+  <circle cx="52" cy="214" r="14" fill="#5C7A5A"/>
+  <text class="t num" x="52" y="219" text-anchor="middle">3</text>
+  <text class="t lbl" x="80" y="209">Taak</text>
+  <text class="t ex"  x="80" y="229">&#201;&#233;n werkwoord, zo precies mogelijk. Niet &#8220;help me&#8221;, wel &#8220;schrijf drie varianten&#8221;.</text>
+
+  <!-- 4 Context (accent) -->
+  <rect x="20" y="250" width="660" height="62" rx="5" fill="#E3EBDF" stroke="#5C7A5A" stroke-width="2"/>
+  <rect x="20" y="250" width="6" height="62" rx="3" fill="#47613F"/>
+  <circle cx="52" cy="281" r="14" fill="#47613F"/>
+  <text class="t num" x="52" y="286" text-anchor="middle">4</text>
+  <text class="t lbl" x="80" y="276">Context &#8212; meestal het langste stuk</text>
+  <text class="t ex"  x="80" y="296">Situatie, doel, doelgroep, bronnen. Alles wat een nieuwe collega zou moeten weten.</text>
+
+  <!-- 5 Output -->
+  <rect x="20" y="320" width="660" height="56" rx="5" fill="#EFEAE1" stroke="#B0A49A" stroke-width="1"/>
+  <rect x="20" y="320" width="6" height="56" rx="3" fill="#5C7A5A"/>
+  <circle cx="52" cy="348" r="14" fill="#5C7A5A"/>
+  <text class="t num" x="52" y="353" text-anchor="middle">5</text>
+  <text class="t lbl" x="80" y="343">Output</text>
+  <text class="t ex"  x="80" y="363">Lengte, structuur, toon, taal, formaat. Zeg je niets, dan kiest het model.</text>
+
+  <!-- 6 Grenzen (accent) -->
+  <rect x="20" y="384" width="660" height="62" rx="5" fill="#E3EBDF" stroke="#5C7A5A" stroke-width="2"/>
+  <rect x="20" y="384" width="6" height="62" rx="3" fill="#47613F"/>
+  <circle cx="52" cy="415" r="14" fill="#47613F"/>
+  <text class="t num" x="52" y="420" text-anchor="middle">6</text>
+  <text class="t lbl" x="80" y="410">Grenzen &#8212; wat wel, wat niet</text>
+  <text class="t ex"  x="80" y="430">&#8220;Alleen uit de bijgevoegde bron. Mist er iets, benoem dat in plaats van het in te vullen.&#8221;</text>
+
+  <text class="t cap" x="20" y="462">Bouwstenen 4 en 6 hebben een dikkere rand: die maken het verschil tussen aardig en bruikbaar.</text>
+</svg>
