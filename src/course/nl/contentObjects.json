@@ -46,10 +46,10 @@
     "_classes": "",
     "title": "Waar je AI voor inzet — en waarvoor niet",
     "displayTitle": "Waar je AI voor inzet — en waarvoor niet",
-    "body": "Acht categorieën waar het echt tijd scheelt, vijf harde grenzen, en een oefening om je eigen taken te vinden.",
+    "body": "Vier niveaus, van versnellen tot een tweede brein, twaalf opdrachten om uit te kiezen, en vijf harde grenzen.",
     "pageBody": "",
     "linkText": "Bekijken",
-    "duration": "15 min",
+    "duration": "20 min",
     "_graphic": {
       "alt": "",
       "src": ""
@@ -106,10 +106,10 @@
     "_classes": "",
     "title": "Privacy, AVG en vertrouwelijkheid",
     "displayTitle": "Privacy, AVG en vertrouwelijkheid",
-    "body": "Wat er nooit in een AI-gesprek hoort, hoe je anonimiseert, en hoe je je eigen account controleert.",
+    "body": "Werken op persoonlijke titel, modeltraining uitzetten met letterlijke stappen, en wat er nooit in een gesprek hoort.",
     "pageBody": "",
     "linkText": "Bekijken",
-    "duration": "15 min",
+    "duration": "20 min",
     "_graphic": {
       "alt": "",
       "src": ""
@@ -166,10 +166,10 @@
     "_classes": "",
     "title": "AI in je browser",
     "displayTitle": "AI in je browser",
-    "body": "Claude in Chrome en ChatGPT Atlas: wat ze kunnen, en waarom prompt-injectie een reëel risico is.",
+    "body": "De enige route naar Teams en SharePoint, en de vaste regels die je instelt tegen prompt-injectie.",
     "pageBody": "",
     "linkText": "Bekijken",
-    "duration": "15 min",
+    "duration": "20 min",
     "_graphic": {
       "alt": "",
       "src": ""
@@ -226,7 +226,7 @@
     "_classes": "",
     "title": "AI naar je informatie brengen",
     "displayTitle": "AI naar je informatie brengen",
-    "body": "Claude Desktop toegang geven tot een eigen werkmap, met stappenplan, foutzoeker en de grenzen daarvan.",
+    "body": "Je desktop-app toegang geven tot een eigen werkmap — zonder configuratie, met foutzoeker en de grenzen daarvan.",
     "pageBody": "",
     "linkText": "Bekijken",
     "duration": "20 min",
@@ -264,8 +264,8 @@
     "_parentId": "course",
     "_type": "page",
     "_classes": "",
-    "title": "Je werkplek: GitHub, CLI en Firebase",
-    "displayTitle": "Je werkplek: GitHub, CLI en Firebase",
+    "title": "Je werkplek laten inrichten",
+    "displayTitle": "Je werkplek laten inrichten",
     "body": "Laat je assistent Git, de GitHub CLI, rtk en Firebase installeren — en leer wat je zelf moet doen.",
     "pageBody": "",
     "linkText": "Bekijken",

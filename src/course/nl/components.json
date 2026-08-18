@@ -2543,7 +2543,7 @@
     "_layout": "full",
     "title": "Tekst",
     "displayTitle": "",
-    "body": "<div class=\"paginanav__rij\"><a class=\"paginanav__knop paginanav__knop--stil\" href=\"#/\"><span class=\"paginanav__label\">Terug naar</span><span class=\"paginanav__titel\">Overzicht</span></a><a class=\"paginanav__knop\" href=\"#/id/co-14\"><span class=\"paginanav__label\">Volgende onderdeel</span><span class=\"paginanav__titel\">Je werkplek: GitHub, CLI en Firebase</span></a></div>",
+    "body": "<div class=\"paginanav__rij\"><a class=\"paginanav__knop paginanav__knop--stil\" href=\"#/\"><span class=\"paginanav__label\">Terug naar</span><span class=\"paginanav__titel\">Overzicht</span></a><a class=\"paginanav__knop\" href=\"#/id/co-14\"><span class=\"paginanav__label\">Volgende onderdeel</span><span class=\"paginanav__titel\">Je werkplek laten inrichten</span></a></div>",
     "instruction": "",
     "_id": "c-1310",
     "_parentId": "b-1310",
